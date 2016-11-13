@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tables>
+	<Table TableName="Treasure Table 1">
+		<DieRoll Sides="10" />
+		<Row HighRoll="1">
+			<ItemRoll Multiplier="1000">
+				<GameObject Name="sp" Plural="sp" />
+				<DieRoll Sides="12" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="2">
+			<ItemRoll Multiplier="100">
+				<GameObject Name="gp" Plural="gp" />
+				<DieRoll Sides="10" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="3">
+			<ItemRoll Multiplier="1000">
+				<GameObject Name="pp" Plural="pp" />
+				<DieRoll Sides="4" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="4">
+			<ItemRoll Multiplier="500">
+				<GameObject Name="ep" Plural="ep" />
+				<DieRoll Sides="8" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="6">
+			<ItemList>
+				<ItemRoll Percent="80">
+					<GameObject Name="sp" Plural="sp" />
+					<DieRoll Sides="6" Modifier="9" />
+				</ItemRoll>
+				<ItemRoll Percent="40">
+					<GameObject Name="gp" Plural="gp" />
+					<DieRoll Sides="8" />
+				</ItemRoll>
+				<ItemRoll Multiplier="10">
+					<GameObject Name="pp" Plural="pp" />
+					<DieRoll Sides="4" />
+				</ItemRoll>
+			</ItemList>
+		</Row>
+		<Row HighRoll="10">
+			<TableRoll TableName="Gems and Jewels" />
+		</Row>
+	</Table>
+	<Table TableName="Gems and Jewels">
+		<DieRoll Sides="100" />
+		<Row HighRoll="25">
+			<TableRoll TableName="Ornamental Stones" />
+		</Row>
+		<Row HighRoll="50">
+			<TableRoll TableName="Semi-Precious Stones" />
+		</Row>
+		<Row HighRoll="70">
+			<TableRoll TableName="Fancy Stones" />
+		</Row>
+		<Row HighRoll="90">
+			<TableRoll TableName="Precious Stones" />
+		</Row>
+		<Row HighRoll="99">
+			<TableRoll TableName="Gems" />
+		</Row>
+		<Row HighRoll="100">
+			<TableRoll TableName="Jewels" />
+		</Row>
+	</Table>
+	<Table TableName="Ornamental Stones">
+		<DieRoll Sides="12" />
+		<Row HighRoll="1">
+			<GameObject Name="Azurite" />
+		</Row>
+		<Row HighRoll="2">
+			<GameObject Name="Banded Agate" />
+		</Row>
+		<Row HighRoll="3">
+			<GameObject Name="Blue Quartz" />
+		</Row>
+		<Row HighRoll="4">
+			<GameObject Name="Eye Agate" />
+		</Row>
+		<Row HighRoll="5">
+			<GameObject Name="Hematite" />
+		</Row>
+		<Row HighRoll="6">
+			<GameObject Name="Lapis Lazuli" />
+		</Row>
+		<Row HighRoll="7">
+			<GameObject Name="Malachite" />
+		</Row>
+		<Row HighRoll="8">
+			<GameObject Name="Moss Agate" />
+		</Row>
+		<Row HighRoll="9">
+			<GameObject Name="Obsidian" />
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="Rhodochrosite" />
+		</Row>
+		<Row HighRoll="11">
+			<GameObject Name="Tiger Eye" />
+		</Row>
+		<Row HighRoll="12">
+			<GameObject Name="Turquoise" />
+		</Row>
+	</Table>
+	<Table TableName="Semi-Precious Stones">
+		<DieRoll Sides="13" />
+		<Row HighRoll="1">
+			<GameObject Name="Bloodstone" />
+		</Row>
+		<Row HighRoll="2">
+			<GameObject Name="Carnelian" />
+		</Row>
+		<Row HighRoll="3">
+			<GameObject Name="Chalcedony" />
+		</Row>
+		<Row HighRoll="4">
+			<GameObject Name="Chrysoprase" />
+		</Row>
+		<Row HighRoll="5">
+			<GameObject Name="Citrine" />
+		</Row>
+		<Row HighRoll="6">
+			<GameObject Name="Jasper" />
+		</Row>
+		<Row HighRoll="7">
+			<GameObject Name="Moonstone" />
+		</Row>
+		<Row HighRoll="8">
+			<GameObject Name="Onyx" />
+		</Row>
+		<Row HighRoll="9">
+			<GameObject Name="Rock Crystal" />
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="Sardonyx" />
+		</Row>
+		<Row HighRoll="11">
+			<GameObject Name="Smoky Quartz" />
+		</Row>
+		<Row HighRoll="12">
+			<GameObject Name="Star Rose Quartz" />
+		</Row>
+		<Row HighRoll="13">
+			<GameObject Name="Zircon" />
+		</Row>
+	</Table>
+	<Table TableName="Fancy Stones">
+		<DieRoll Sides="10" />
+		<Row HighRoll="1">
+			<GameObject Name="Amber" />
+		</Row>
+		<Row HighRoll="2">
+			<GameObject Name="Amethyst" />
+		</Row>
+		<Row HighRoll="3">
+			<GameObject Name="Chrysoberyl" />
+		</Row>
+		<Row HighRoll="4">
+			<GameObject Name="Coral" />
+		</Row>
+		<Row HighRoll="5">
+			<GameObject Name="Garnet" />
+		</Row>
+		<Row HighRoll="6">
+			<GameObject Name="Jade" />
+		</Row>
+		<Row HighRoll="7">
+			<GameObject Name="Jet" />
+		</Row>
+		<Row HighRoll="8">
+			<GameObject Name="Pearl" />
+		</Row>
+		<Row HighRoll="9">
+			<GameObject Name="Spinel" />
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="Tourmaline" />
+		</Row>
+	</Table>
+	<Table TableName="Precious Stones">
+		<DieRoll Sides="6" />
+		<Row HighRoll="1">
+			<GameObject Name="Aquamarine" />
+		</Row>
+		<Row HighRoll="2">
+			<GameObject Name="Garnet" />
+		</Row>
+		<Row HighRoll="3">
+			<GameObject Name="Pearl" />
+		</Row>
+		<Row HighRoll="4">
+			<GameObject Name="Peridot" />
+		</Row>
+		<Row HighRoll="5">
+			<GameObject Name="Spinel" />
+		</Row>
+		<Row HighRoll="6">
+			<GameObject Name="Topaz" />
+		</Row>
+	</Table>
+	<Table TableName="Gems">
+		<DieRoll Sides="9" />
+		<Row HighRoll="1">
+			<GameObject Name="Black Opal" />
+		</Row>
+		<Row HighRoll="2">
+			<GameObject Name="Emerald" />
+		</Row>
+		<Row HighRoll="3">
+			<GameObject Name="Fire Opal" />
+		</Row>
+		<Row HighRoll="4">
+			<GameObject Name="Opal" />
+		</Row>
+		<Row HighRoll="5">
+			<GameObject Name="Oriental Amethyst" />
+		</Row>
+		<Row HighRoll="6">
+			<GameObject Name="Oriental Topaz" />
+		</Row>
+		<Row HighRoll="7">
+			<GameObject Name="Sapphire" />
+		</Row>
+		<Row HighRoll="8">
+			<GameObject Name="Star Ruby" />
+		</Row>
+		<Row HighRoll="9">
+			<GameObject Name="Star Sapphire" />
+		</Row>
+	</Table>
+	<Table TableName="Jewels">
+		<DieRoll Sides="5" />
+		<Row HighRoll="1">
+			<GameObject Name="Black Sapphire" />
+		</Row>
+		<Row HighRoll="2">
+			<GameObject Name="Diamond" />
+		</Row>
+		<Row HighRoll="3">
+			<GameObject Name="Jacinth" />
+		</Row>
+		<Row HighRoll="4">
+			<GameObject Name="Oriental Emerald" />
+		</Row>
+		<Row HighRoll="5">
+			<GameObject Name="Ruby" />
+		</Row>
+	</Table>
+	<Table TableName="Jewelry">
+		<DieRoll Sides="100"/>
+		<Row HighRoll="50">
+			<GameObject Name="Cheap Jewelry Piece" />
+		</Row>
+		<Row HighRoll="85">
+			<GameObject Name="Nice Jewelry Piece"/>
+		</Row>
+		<Row HighRoll="96">
+			<GameObject Name="Very Nice Jewelry Piece"/>
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Extraordinary Jewelry Piece"/>
+		</Row>
+	</Table>
+</Tables>

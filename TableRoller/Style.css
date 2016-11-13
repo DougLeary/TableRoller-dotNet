@@ -1,0 +1,149 @@
+﻿html {
+	background-color: #808080;
+}
+
+body
+{
+	position: relative;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 10pt;
+	color: #000000;
+	background-color: #ffffff;
+	background-repeat: repeat-x;
+	min-height: 600px; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 1020px;
+	border: 1px solid black;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-moz-box-shadow:    3px 3px 5px 5px #505050;
+	box-shadow:         3px 3px 5px 5px #505050;
+	-webkit-box-shadow: 3px 3px 5px 5px #505050;
+	padding: 0px;
+}
+h1
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+td
+{
+	padding: 0px;
+	vertical-align: top;
+}
+
+.PageHeader
+{
+	height: 90px;
+	background-color: #000000;
+	background-image: url(images/realmsmithbanner1.jpg);
+	background-repeat: no-repeat;
+	border: 1px solid black;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+}
+.MenuPanel
+{
+	background-color: #000000;
+	color: #efefef;
+	width: 160px;
+	height: 800px;
+	margin: 0px;
+	padding: 5px;
+	padding-bottom: 20px;
+}
+.BodyPanel
+{
+	width: 800px;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 18px;
+}
+.GoogleAdPanel
+{
+	width: 165px;
+	font-size: 8pt;
+	padding-top: 20px;
+}
+
+.menuHeading
+{
+	font-weight: bold;
+	font-size: 12pt;
+	padding-top: 3px;
+	color: #efef24;
+}
+.menuSection
+{
+	padding-left: 6px;
+}
+.menuSection a
+{
+	color: #efefef;
+	text-decoration: none;
+}
+.menuSection a:hover
+{
+	background-color: #808080;
+	color: #ffffff;
+}
+
+span.first
+{
+	float: left;
+	font-family: Old English, Georgia,serif;
+	font-weight: bold;
+	font-size: 430%;
+	line-height: 0.9em;
+	margin-right: 0.05em;
+	padding-top: 0;
+	padding-bottom: 0.02em;
+}
+
+.TableEditor, .TableEditor th, .TableEditor td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-top: 3px;
+}
+
+.TableEditor input
+{
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+.TableEditor td
+{
+	height: 22px;
+}
+
+.rollableTableItem
+{
+	width: 350px; 
+	margin: 4px;
+}
+.rollableTableRange
+{
+	width: 40px; 
+	margin: 4px;
+	text-align: center;
+}
+
+.rollableTableItemEdit
+{
+	width: 350px; 
+	margin: 0px;
+}
+.rollableTableRangeEdit
+{
+	width: 40px; 
+	margin: 0px;
+	text-align: left;
+}
+

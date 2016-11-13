@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		$.ajaxSetup({
+			type: "POST",
+			contentType: "application/json; charset=utf-8",
+			data: "{}"
+		});
+
+		function performRoll() {
+			$.ajax({
+				url: "DiceService.asmx/Roll",
+				data: '{ dieRollString : "' + $("#txtDice").val() + '" }',
+				dataType: "json",
+				success: function(data) {
+					$('#result').html("You rolled " + data.d.RolledValue);
+				},
+				failure: function () {
+					alert("failure");
+				}
+			});
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="txtDice" value="" />
+	<input type="button" id="btnRoll" value="Roll" onclick="performRoll();" />
+	<br />
+	<div id="result"></div>
+</body>
+</html>

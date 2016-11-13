@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Arduin Tables -->
+<Tables>
+	<!-- Special Abilities --> 
+	<Table TableName="Arduin Special Abilities">
+		<DieRoll Sides="100" />
+		<Row HighRoll="2">
+			<GameObject Name="-1 with long swords; -2 vs cold and disease" />
+		</Row>
+		<Row HighRoll="4">
+			<GameObject Name="+1 with short swords; -1 vs all magical attacks (even clerical)" />
+		</Row>
+		<Row HighRoll="6">
+			<GameObject Name="+1 with all axes; -3 vs all dragon breath" />
+		</Row>
+		<Row HighRoll="8">
+			<GameObject Name="+1 with spears and all pole arms; -2 vs all missile attacks" />
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="+1 with sabers, cutlasses, etc; -3 vs petrification/paralysis" />
+		</Row>
+		<Row HighRoll="12">
+			<GameObject Name="+1 with maces and flails; +2 to constitution but -3 vs sleep and charm" />
+		</Row>
+		<Row HighRoll="14">
+			<GameObject Name="+1 with morning stars, whips, bolos and chains; -2 with all swords" />
+		</Row>
+		<Row HighRoll="16">
+			<GameObject Name="+1 with all non-mechanical bows; -2 vs all djinn and efreet attacks" />
+		</Row>
+		<Row HighRoll="18">
+			<GameObject Name="+1 with all crossbows, javelins and throwing darts; -1 vs cold" />
+		</Row>
+		<Row HighRoll="20">
+			<GameObject Name="+1 with all knives, daggers, etc; -1 with all other weapons" />
+		</Row>
+		<Row HighRoll="25">
+			<GameObject Name="Mountan Man; +3 to strength and constitution, climb like a thief" />
+		</Row>
+		<Row HighRoll="30">
+			<GameObject Name="Woodsman; +3 with all bows; +2 hide in trees, etc; +1 to dexterity" />
+		</Row>
+		<Row HighRoll="32">
+			<GameObject Name="Bad liar (-1 to charisma when lying); +4 charisma to opposite sex" />
+		</Row>
+		<Row HighRoll="34">
+			<GameObject Name="Natural locksmith; pick locks like a thief; -2 vs poison" />
+		</Row>
+		<Row HighRoll="36">
+			<GameObject Name="+2 vs all undead attacks; -2 vs all missile attacks" />
+		</Row>
+		<Row HighRoll="38">
+			<GameObject Name="Ex-seafarer, who cannot be drowned even in full armor (you shed it)" />
+		</Row>
+		<Row HighRoll="40">
+			<GameObject Name="Flesh tastes bad to monsters (75% chance they'll spit you out!" />
+		</Row>
+		<Row HighRoll="42">
+			<GameObject Name="50% better vision and hearing; ability to see in the dark as an elf" />
+		</Row>
+		<Row HighRoll="44">
+			<GameObject Name="Desert born; +3 to constitution and can find water 85% of the time" />
+		</Row>
+		<Row HighRoll="49">
+			<GameObject Name="Good horseman; can buy them for 20% less but camels hate you" />
+		</Row>
+		<Row HighRoll="50">
+			<GameObject Name="+2 vs all magical spells; -3 vs all breath weapons" />
+		</Row>
+		<Row HighRoll="55">
+			<GameObject Name="Religious fanatic; -4 charisms and an inability to work with pagans" />
+		</Row>
+		<Row HighRoll="60">
+			<GameObject Name="+3 with rapiers; -2 with all other weapons" />
+		</Row>
+		<Row HighRoll="65">
+			<GameObject Name="A coward; -8 save vs Fear" />
+		</Row>
+		<Row HighRoll="70">
+			<GameObject Name="Stupidly brave; even greater demons don't scare you; -5 to wisdom" />
+		</Row>
+		<Row HighRoll="72">
+			<GameObject Name="Dragon friend; +2 vs all dragon attacks; 50% chance of talking" />
+		</Row>
+		<Row HighRoll="74">
+			<GameObject Name="Elf friend; they'll never attack you first, and you speak their languages" />
+		</Row>
+		<Row HighRoll="76">
+			<GameObject Name="Undead friend; they won't attack your 50% of the time; -4 to charisma" />
+		</Row>
+		<Row HighRoll="78">
+			<GameObject Name="Roll d6 and add the result as a plus to any weapon type" />
+		</Row>
+		<Row HighRoll="80">
+			<GameObject Name="-4 chance of figuring out anything mechanical; -3 to intelligence" />
+		</Row>
+		<Row HighRoll="82">
+			<GameObject Name="Your one desire is to form a secret society; +5 to charisma" />
+		</Row>
+		<Row HighRoll="84">
+			<GameObject Name="Easily fall in love; opposite sex gets +8 charisma vs you" />
+		</Row>
+		<Row HighRoll="86">
+			<GameObject Name="Taught by a true weapons master; get +2 with all western weapons" />
+		</Row>
+		<Row HighRoll="88">
+			<GameObject Name="Bump of direction (75% accurate) and weather prediction (65%)" />
+		</Row>
+		<Row HighRoll="90">
+			<GameObject Name="Born to kill, you truly savor it; -2 to charisma; 25% chance of going berserker" />
+		</Row>
+		<Row HighRoll="92">
+			<GameObject Name="Born to a normal mother with an efreet father; you are 100% fireproof" />
+		</Row>
+		<Row HighRoll="94">
+			<GameObject Name="Hates dragons (90% attack on sight); +4 with attacking them" />
+		</Row>
+		<Row HighRoll="95">
+			<GameObject Name="Secret were-creature (roll for type). There is a 98% chance you will be chaotic and a 50% chance you will be terribly evil, but all so very secret." />
+		</Row>
+		<Row HighRoll="96">
+			<GameObject Name="Sired by an unknown demon; +2 to all characteristics and saves. There is a 98% chance you will be chaotic and a 50% chance you will be terribly evil, but all so very secret." />
+		</Row>
+		<Row HighRoll="97">
+			<GameObject Name="Natural ability of True Sight." />
+		</Row>
+		<Row HighRoll="98">
+			<GameObject Name="Natural warrior; add +1 to all your physical attacks." />
+		</Row>
+		<Row HighRoll="99">
+			<GameObject Name="You hate mages; add +3 to all magical saves. You kill them." />
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Young giant (roll for type); -3 on charisma; start at first level with 3d10 hit dice, add d10+1 every level." />
+		</Row>
+	</Table>
+	<!-- Critical Hits --> 
+	<Table TableName="Arduin Critical Hits">
+		<DieRoll Sides="100" />
+		<Row HighRoll="2">
+			<GameObject Name="Head, frontal; Brain penetrated, immediate death; 4d8" />
+		</Row>
+		<Row HighRoll="4">
+			<GameObject Name="Neck, frontal; Voicebox ruined, total voice loss. (permanent); 1d8" />
+		</Row>
+		<Row HighRoll="6">
+			<GameObject Name="Wrist; Hand severed, bleed to death in 1d8 minutes; 3d6" />
+		</Row>
+		<Row HighRoll="8">
+			<GameObject Name="Chest or back; Impalement, weapon stuck there; 3d10" />
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="Side; 1d5 ribs broken; 1d3 per rib" />
+		</Row>
+		<Row HighRoll="15">
+			<GameObject Name="Leg; Major artery cut, bleed to death in 1d10 minutes; 1d8" />
+		</Row>
+		<Row HighRoll="20">
+			<GameObject Name="Arm; Major artery cut, bleed to death in 1d12 minutes; 1d6" />
+		</Row>
+		<Row HighRoll="25">
+			<GameObject Name="Foot, rear; Achilles tendon cut, fall immediately (permanent); 1d3" />
+		</Row>
+		<Row HighRoll="30">
+			<GameObject Name="Fingers; 1d5 severed; 1 each" />
+		</Row>
+		<Row HighRoll="32">
+			<GameObject Name="Toes; 1d5 severed; 3 per two" />
+		</Row>
+		<Row HighRoll="34">
+			<GameObject Name="Face; Eye ruined or torn out (permanent), unable to fight for 1d10 rounds; 1d6" />
+		</Row>
+		<Row HighRoll="36">
+			<GameObject Name="Forehead; Gashed, blood in eyes, can’t see or fight for 1d10 rounds; 1d3" />
+		</Row>
+		<Row HighRoll="38">
+			<GameObject Name="Crotch/chest; Genitals/breasts torn off, immediate shock induced coma, death in d4 minutes; 3d6" />
+		</Row>
+		<Row HighRoll="40">
+			<GameObject Name="Head, side; Ear taken off, 50% hearing loss, -2 charisma; 1d3" />
+		</Row>
+		<Row HighRoll="42">
+			<GameObject Name="Buttocks; Buttock torn off, fall, shock induced coma for 3d10 minutes, permanent –3 dex, ½ speed; 4d4" />
+		</Row>
+		<Row HighRoll="44">
+			<GameObject Name="Head, general; Stunned, 1d10 rounds no fighting; 1d2" />
+		</Row>
+		<Row HighRoll="46">
+			<GameObject Name="Head, general; Stunned, 1d6 minutes no fighting; 1d4" />
+		</Row>
+		<Row HighRoll="48">
+			<GameObject Name="Head, general; Minor concussion, Stunned, 1d10 minutes no fighting; 1d6" />
+		</Row>
+		<Row HighRoll="50">
+			<GameObject Name="Head, general; Moderate concussion, unconscious 1d6 rounds, confused and groggy for 6d10 minutes; 1d8" />
+		</Row>
+		<Row HighRoll="55">
+			<GameObject Name="Head, general; Major skull fracture, unconscious 2d10 minutes, amnesia: 1-60 lasts 2d12 hours, 61+ permanent; 1d10" />
+		</Row>
+		<Row HighRoll="60">
+			<GameObject Name="Neck, frontal; Throat cut, death in 1d3 minutes; 1d8" />
+		</Row>
+		<Row HighRoll="65">
+			<GameObject Name="Arm; Torn off (roll % for how much, starting at wrist), bleed to death in 1d3 rounds; 4d6" />
+		</Row>
+		<Row HighRoll="70">
+			<GameObject Name="Leg; Torn off (roll % for how much, starting at wrist), fall, bleed to death in 1d3 rounds; 4d12" />
+		</Row>
+		<Row HighRoll="75">
+			<GameObject Name="Chest; Heart pierced, immediate death; 1d10" />
+		</Row>
+		<Row HighRoll="80">
+			<GameObject Name="Back, lower; Spine ruined, roll d6: 1. 100% paralyzed 2. Left side paralyzed 3. Right side 4. Waist up 5. Waist down 6. Death in one minute; 2d10" />
+		</Row>
+		<Row HighRoll="85">
+			<GameObject Name="Face; Both eyes ruined or torn out (permanent), unable to fight for 1d10 rounds, permanently blinded; 2d6" />
+		</Row>
+		<Row HighRoll="90">
+			<GameObject Name="Face; Nose ruined, -6 cha, stunned, breathing problems (-2 on con checks involving endurance), bad speech prblems for 1d12 months (relearning to speak properly); 1d8" />
+		</Row>
+		<Row HighRoll="94">
+			<GameObject Name="Head, general; Nothing apparent, later problems when brain hemmorhages in 1d10 days, 50/50 chance of death or permanent insanity; 1d2" />
+		</Row>
+		<Row HighRoll="95">
+			<Instance>
+			<GameObject Name="Guts; ripped out 20% chance of tangling feet, die in 1d10 minutes; 2d8" />
+			</Instance>
+		</Row>
+		<Row HighRoll="96">
+			<GameObject Name="Head, top; Skull caved in, major brain damage, all mental faculties permanently halved, 50-100% memory destroyed, -8 cha; 2d6" />
+		</Row>
+		<Row HighRoll="97">
+			<GameObject Name="Chest; Lung punctured, internal damage, halve Strength and Constitution (permanent); 1d12" />
+		</Row>
+		<Row HighRoll="98">
+			<GameObject Name="Neck; Head torn off, immediate death; 5d10" />
+		</Row>
+		<Row HighRoll="99">
+			<GameObject Name="Body; Split in twain, immediate death; 10d10" />
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Head; Entire head pulped and splattered over wide area, irrevocable death; Total" />
+		</Row>
+	</Table>
+	<!-- Critical Fumbles -->
+	<Table TableName="Arduin Critical Fumbles">
+		<DieRoll Sides="100" />
+		<Row HighRoll="5">
+			<GameObject Name="glancing blow; half normal damage" />
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="weapon twists in hand(s); one quarter damage, lose next attack" />
+		</Row>
+		<Row HighRoll="15">
+			<GameObject Name="weapons (both) tangled; both parties lose next attack, 25% to drop" />
+		</Row>
+		<Row HighRoll="20">
+			<GameObject Name="weapon slips out of grip; lose attack; weapon retrieval in 1-3 rounds" />
+		</Row>
+		<Row HighRoll="25">
+			<GameObject Name="weapon knocked from grasp; lose attack; weapon retrieval in 1d6 turns" />
+		</Row>
+		<Row HighRoll="30">
+			<GameObject Name="opponent grabs weapon/hand; (opponent may decline) attack cancelled" />
+		</Row>
+		<Row HighRoll="35">
+			<GameObject Name="flexible weapon hits wrong target; normal damage to wrong target" />
+		</Row>
+		<Row HighRoll="40">
+			<GameObject Name="flexible weapon entangles itself; attack lost for 1-3 rounds" />
+		</Row>
+		<Row HighRoll="49">
+			<GameObject Name="hit yourself; half damage" />
+		</Row>
+		<Row HighRoll="50">
+			<GameObject Name="normal weapon shatters; one eighth damage" />
+		</Row>
+		<Row HighRoll="55">
+			<GameObject Name="foot slips; make a d20 Dex roll or fall for 1d6 rounds" />
+		</Row>
+		<Row HighRoll="60">
+			<GameObject Name="bump ally; each must make a d20 Dex roll or lose attack" />
+		</Row>
+		<Row HighRoll="65">
+			<GameObject Name="bump an enemy; each must make a d20 Dex roll or lose attack" />
+		</Row>
+		<Row HighRoll="70">
+			<GameObject Name="full stumble; those in fall direction must make a d20 Dex roll or also fall" />
+		</Row>
+		<Row HighRoll="75">
+			<GameObject Name="off balance; make half a Dex roll or lose attack" />
+		</Row>
+		<Row HighRoll="80">
+			<GameObject Name="take blow not meant for you; 3/4 normal damage" />
+		</Row>
+		<Row HighRoll="85">
+			<GameObject Name="twist ankle; take half damage and lose next attack" />
+		</Row>
+		<Row HighRoll="90">
+			<GameObject Name="hit wrong target; 3/4 normal damage" />
+		</Row>
+		<Row HighRoll="92">
+			<GameObject Name="hit yourself; take half damage and lost next attack" />
+		</Row>
+		<Row HighRoll="94">
+			<GameObject Name="magic weapon breaks; 100% for +1, decreasing 25% per plus" />
+		</Row>
+		<Row HighRoll="95">
+			<GameObject Name="+3 or lower magic weapon breaks; 100% for +3, decreasing 25% per plus" />
+		</Row>
+		<Row HighRoll="97">
+			<GameObject Name="hit and stun nearest ally; half damage, stunned for 1d6 rounds" />
+		</Row>
+		<Row HighRoll="98">
+			<GameObject Name="critical hit nearest ally" />
+		</Row>
+		<Row HighRoll="99">
+			<GameObject Name="critical hit yourself" />
+		</Row>
+		<Row HighRoll="100">
+			<TableRoll TableName="Arduin Critical Fumbles" Rolls="3" IgnoreAbove="99" />
+		</Row>
+	</Table>
+</Tables>

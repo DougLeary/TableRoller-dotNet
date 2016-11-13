@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>JQuery Table Toolbox</title>
+	<base href="http://ajax.googleapis.com/" />
+	<!-- Reference the theme's stylesheet on the Google CDN -->
+	<link href="/ajax/libs/jqueryui/1.7.2/themes/redmond/jquery-ui.css" type="text/css"
+		rel="Stylesheet" />
+	<!-- Reference jQuery and jQuery UI from the CDN. Remember
+		 that the order of these two elements is important -->
+
+	<script type="text/javascript" src="/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+	<script type="text/javascript" src="/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+
+	<script type="text/javascript">
+		var $currentItemRow = null;
+		function initPage() {
+			$("#items tr").hover(
+				function() {
+				  $("#tableToolbox").css({
+					  top: $(this).offset().top - "13",
+					  left: $(this).offset().left + $(this).width() - "10"
+				  }).show();
+				  $currentItemRow = $(this);
+				},
+				function() {
+				$("#tableToolbox").hide();
+			});
+			$("#tableToolbox").hover(
+				function(){
+				$(this).show();
+				},
+				function(){
+				$("#tableToolbox").hide();
+			});
+		}
+		function insertRow(before) {
+			if ($currentItemRow) {
+				if (before) { 
+					$currentItemRow.before(newItemRow());
+				} else {
+					$currentItemRow.after(newItemRow());
+				}				
+			}
+		}
+		function newItemRow() {
+			var $newRow = $currentItemRow.clone(true);
+			$newRow.children().eq(0).html("");
+			$newRow.children().eq(1).html("");
+			return $newRow;
+		}
+	</script>
+
+	<style type="text/css">
+		.rollableTable { border-collapse: collapse; }
+		.rollableTable td { border: 1px solid black; padding: 2px; height: 20px; }
+		.rollableTable .rolls { text-align: center; }
+		.rollableTable tr:hover { background-color: #c0c000; }
+		#tableToolbox
+		{
+			display: none;
+			position: absolute;
+			width: 82px;
+			border: 1px solid #c0c0c0;
+			font-family: Tahoma;
+			font-size: 8pt;
+			background-color: #ffffdf;
+		}
+		#tableToolbox ul
+		{
+			list-style-type: none;
+			padding: 0px;
+			margin: 0px;
+		}
+		#tableToolbox ul li
+		{
+			padding: 3px;
+		}
+		#tableToolbox ul li:hover
+		{
+			background-color: #e0e0e0;
+		}
+	</style>
+</head>
+<body>
+	<table id="items" style="width: 150px;" class="rollableTable">
+		<tr>
+			<th>Roll</th>
+			<th>Result</th>
+		</tr>
+		<tr>
+			<td>1-4</td>
+			<td>Item A</td>
+		</tr>
+		<tr>
+			<td>5-7</td>
+			<td>Item B</td>
+		</tr>
+		<tr>
+			<td>8-9</td>
+			<td>Item C</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>Item D</td>
+		</tr>
+	</table>
+	<div id="tableToolbox">
+		<ul>
+			<li onclick="insertRow(true);">&#x2190; insert above</li>
+			<li onclick="insertRow(false);">&#x2190; insert below</li>
+		</ul>
+	</div>
+	<br />
+	<hr />
+	<br />
+	<div id="divDebug" style="font-size: 8pt;">
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			initPage();
+		});
+	</script>
+
+</body>
+</html>

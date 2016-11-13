@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tables>
+	<Table TableName="1a. Arctic and Subarctic Forest">
+		<DieRoll Sides="100" />
+		<Row HighRoll="5">
+			<ItemRoll>
+				<GameObject Name="Black Bear" />
+				<DieRoll Dice="1" Sides="2"/>
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="10">
+			<ItemRoll>
+				<GameObject Name="Brown Bear" />
+				<DieRoll Dice="1" Sides="2"/>
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="60">
+			<ItemRoll>
+				<GameObject Name="Game Bird" />
+				<DieRoll Dice="1" Sides="6"/>
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="70">
+			<ItemRoll>
+				<GameObject Name="Small Game" />
+				<DieRoll Dice="1" Sides="4"/>
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="80">
+			<ItemRoll>
+				<GameObject Name="Musk Ox" />
+				<DieRoll Dice="2" Sides="4"/>
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="90">
+			<ItemRoll>
+				<GameObject Name="Caribou" />
+				<DieRoll Dice="2" Sides="6"/>
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="95">
+			<ItemRoll>
+				<GameObject Name="Hart" />
+				<DieRoll Dice="1" Sides="4"/>
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="100">
+			<ItemRoll>
+				<GameObject Name="Moose" />
+				<DieRoll Dice="1" Sides="2"/>
+			</ItemRoll>
+		</Row>
+	</Table>
+</Tables>

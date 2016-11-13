@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+    <script type="text/javascript" language="javascript">
+		function change(frameId)
+		{
+			 // Call the iframe function from the parent window.
+			var iframe = document.getElementById(frameId);
+			var iframeWin;
+			if (iframe.contentWindow) { iframeWin = iframe.contentWindow; }
+			else { iframeWin = iframe.contentDocument.defaultView; }
+
+			iframeWin.changeContent();
+		}
+    </script>
+</head>
+<body>
+	Below are two iframes. The buttons change their content.
+	<br />
+	<input type="button" value="Change 1" onclick="change('frOne')" />
+	<input type="button" value="Change 2" onclick="change('frTwo')" />
+	<br />
+	<iframe id="frOne" name="frOne" src="frOne.htm"></iframe>
+	<br /><br />
+	<iframe id="frTwo" name="frTwo" src="frTwo.htm"></iframe>
+</body>
+</html>

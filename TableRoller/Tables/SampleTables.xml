@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables>
+	<Table TableName="Monsters Table 1">
+		<DieRoll />
+		<Row HighRoll="2">
+			<ItemRoll>
+				<GameObject Name="Orc" />
+				<DieRoll Dice="2" Sides="6" Modifier="3" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="4">
+			<ItemRoll>
+				<GameObject Name="Harpy" />
+				<DieRoll Sides="4" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="6">
+			<Instance Count="15">
+				<GameObject Name="Goblin" />
+			</Instance>
+		</Row>
+		<Row HighRoll="8">
+			<ItemList>
+				<Instance Count="3">
+					<GameObject Name="Zombie" />
+				</Instance>
+				<GameObject Name="Ghoul" />
+				<TableRoll TableName="Monsters Table 2" />
+			</ItemList>
+		</Row>
+		<Row HighRoll="16">
+			<TableRoll TableName="Monsters Table 2" />
+		</Row>
+		<Row HighRoll="18">
+			<TableRoll TableName="Monsters Table 2" Rolls="2" />
+		</Row>
+		<Row HighRoll="20">
+			<TableRoll TableName="Villagers Table 1" Rolls="2" IgnoreAbove="8" />
+		</Row>
+	</Table>
+	<Table TableName="Monsters Table 2">
+		<DieRoll Sides="6" />
+		<Row HighRoll="1">
+			<GameObject Name="Baby Mosquito" />
+		</Row>
+		<Row HighRoll="2">
+			<GameObject Name="Scorpion" />
+		</Row>
+		<Row HighRoll="3">
+			<GameObject Name="Centipede" />
+		</Row>
+		<Row HighRoll="4">
+			<ItemRoll Multiplier="10">
+				<GameObject Name="Spider" />
+				<DieRoll Sides="4" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="6">
+			<GameObject Name="Zombie" />
+		</Row>
+	</Table>
+	<Table TableName="Villagers Table 1">
+		<DieRoll Sides="12" />
+		<Row HighRoll="2">
+			<GameObject Name="Shopkeeper" />
+		</Row>
+		<Row HighRoll="4">
+			<GameObject Name="Alumnus" Plural="Alumni" />
+		</Row>
+		<Row HighRoll="6">
+			<GameObject Name="Ne'er do well" />
+		</Row>
+		<Row HighRoll="8">
+			<GameObject Name="Traveling Wizard" />
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="Lawyer" />
+		</Row>
+		<Row HighRoll="12">
+			<GameObject Name="Accountant" />
+		</Row>
+	</Table>
+</Tables>

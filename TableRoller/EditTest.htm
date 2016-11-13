@@ -1,0 +1,144 @@
+﻿
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link type="text/css" rel="Stylesheet" href="Style.css" />
+	<script type="text/javascript" src="Scripts/jquery.js"></script>
+	<script type="text/javascript" src="Scripts/json2.js"></script>
+	
+	<title>Table Roll Demo</title>
+
+	<link type="text/css" rel="Stylesheet" href="Style.css" />
+	<style type="text/css">
+		#TableRollDemo
+		{
+			width: 400px;
+		}
+		#TableRollDemo th, td
+		{
+			padding-left: 4px;
+			padding-right: 4px;
+			vertical-align: top;
+		}
+		#TableRollDemo th
+		{
+			background-color: #a0ffa0;
+		}
+		.rollColumn
+		{
+			text-align: center;
+		}
+		.tableEditor td input
+		{
+			border: none;
+			padding: 0px;
+			font: inherit;
+			position: relative;
+			left: -1px;
+			background-color: #ffffff;
+		}
+		
+	</style>
+	<script type="text/javascript" language="javascript">
+		function RollOnTable(numberOfRolls) {
+			$.ajax({
+				type: "POST",
+				url: "RollableTableService.asmx/RollList",
+				data: '{ "TableName" : "Monsters Table 1", "NumberOfRolls" : ' + numberOfRolls + ' }',
+				contentType: "application/json; charset=utf-8",
+				dataType: "json",
+				success: function (msg) { BuildTable(msg.d); }
+			});
+		}
+
+		function BuildTable(msg) {
+			var table = "<table><thead><tr><th>Item</th><th>Count</th></thead><tbody>";
+			var arr = jQuery.parseJSON(msg);
+
+			for (var i = 0; i < arr.length; i++) {
+				var obj = arr[i];
+				var row = "<tr><td>" + obj.Name + '</td><td align="center">' + obj.Count + "</td></tr>";
+				table += row;
+			}
+			table += "</tbody></table>";
+			$("#divResults").html("<b>Results</b>" + table);
+		}
+		function EditCell($cell) {
+			/* revert any existing inputs to text */
+			$("#tableEdit1 td input").each(function () {
+				$(this).parent().html($(this).val());
+			});
+			$("#tableEdit1 td").each(function () {
+				$(this).css("background-color", "#efefef");
+			});
+			/* wrap the text of the current cell in an input */
+			var content = $cell.html();
+			var width = $cell.width();
+			$cell.html("<input></input>");
+			$("input", $cell)
+				.click(function (ev) {
+					ev.stopImmediatePropagation();
+				})
+				.blur(function (ev) {
+					$("#tableEdit1 td").each(function () {
+						$(this).css("background-color", "#ffffff");
+					});
+				})
+				.val(content)
+				.css("width", width - 2)
+				.css("height", height - 4)
+				.focus();
+		}
+
+		$.fn.selectEnd = function () {
+			return this.each(function () {
+				if (this.setSelectionRange) {
+					this.focus();
+					this.setSelectionRange(9999,9999);
+				} 
+				else if (this.createTextRange) {
+					var range = this.createTextRange();
+					range.collapse(true);
+					range.moveEnd('character', 9999);
+					range.moveStart('character', 9999);
+					range.select();
+				}
+			});
+		};
+
+		$(function () {
+			$("#tableEdit1 td").click(function (ev) {
+				EditCell($(this)); 
+			});
+		});
+
+	</script>
+</head>
+<body>
+	<div id="TableRollDemo" class="BodyPanel">
+		<h1>Table Editor Test</h1>
+		<div>
+			<b>Monsters Table 1</b> (<span class="diceDisplay">d20</span>)
+		</div>
+		<table cellspacing="0" rules="all" border="1" id="tableEdit1" class="tableEditor" style="width:300px;border-collapse:collapse;">
+			<tr>
+				<th align="center" scope="col">Roll</th><th align="left" scope="col">Item</th>
+			</tr><tr>
+				<td align="center">1-2</td><td>2d6+3 Orcs</td>
+			</tr><tr>
+				<td align="center">3-4</td><td>d10+10 Gnomes</td>
+			</tr><tr>
+				<td align="center">5-6</td><td>15 Goblins</td>
+			</tr><tr>
+				<td align="center">7-8</td><td>3 Zombies, Ghoul, Roll on Monsters Table 2</td>
+			</tr><tr>
+				<td align="center">9-16</td><td>Roll on Monsters Table 2</td>
+			</tr><tr>
+				<td align="center">17-18</td><td>Roll on Treasure Table 1</td>
+			</tr><tr>
+				<td align="center">19-20</td><td>Roll twice on Villagers Table 1, ignoring results above 8</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

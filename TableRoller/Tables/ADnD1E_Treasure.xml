@@ -1,0 +1,2000 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tables>
+	<Table TableName="I. Map or Magic Determination">
+		<DieRoll Sides="100" />
+		<Row HighRoll="10">
+			<TableRoll TableName="II. Map Table" />
+		</Row>
+		<Row HighRoll="10">
+			<TableRoll TableName="III. Magic Items" />
+		</Row>
+	</Table>
+	<Table TableName="II. Map Table">
+		<DieRoll Sides="100" />
+		<Row HighRoll="5">
+			<GameObject Name="False map"/>
+		</Row>
+		<Row HighRoll="70">
+			<GameObject Name="Map to monetary treasure"/>
+		</Row>
+		<Row HighRoll="90">
+			<GameObject Name="Map to Magic treasure"/>
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Map to combined hoard"/>
+		</Row>
+	</Table>
+	<Table TableName="III. Magic Items">
+		<DieRoll Sides="100" />
+		<Row HighRoll="20">
+			<TableRoll TableName="III. Potions" />
+		</Row>
+		<Row HighRoll="35">
+			<TableRoll TableName="III. Scrolls" />
+		</Row>
+		<Row HighRoll="40">
+			<TableRoll TableName="III. Rings" />
+		</Row>
+		<Row HighRoll="45">
+			<TableRoll TableName="III. Rods, Staves and Wands" />
+		</Row>
+		<Row HighRoll="60">
+			<TableRoll TableName="III. Miscellaneous Magic" />
+		</Row>
+		<Row HighRoll="75">
+			<TableRoll TableName="III. Armor and Shields" />
+		</Row>
+		<Row HighRoll="86">
+			<TableRoll TableName="III. Swords" />
+		</Row>
+		<Row HighRoll="100">
+			<TableRoll TableName="III. Miscellaneous Weapons" />
+		</Row>
+	</Table>
+
+	<Table TableName="III. Potions">
+		<DieRoll Sides="100" />
+		<Row HighRoll="65">
+			<TableRoll TableName="III.A. Potions" />
+		</Row>
+		<Row HighRoll="100">
+			<TableRoll TableName="III.A.2. Potions" />
+		</Row>
+	</Table>
+
+	<Table TableName="III. Scrolls">
+		<DieRoll Sides="100" />
+		<Row HighRoll="85">
+			<TableRoll TableName="III.B. Scrolls" />
+		</Row>
+		<Row HighRoll="100">
+			<TableRoll TableName="III.B.2. Scrolls" />
+		</Row>
+	</Table>
+
+	<Table TableName="III. Rings">
+		<DieRoll Sides="100" />
+		<Row HighRoll="67">
+			<TableRoll TableName="III.C. Rings" />
+		</Row>
+		<Row HighRoll="100">
+			<TableRoll TableName="III.C.2. Rings" />
+		</Row>
+	</Table>
+
+	<Table TableName="III. Rods, Staves and Wands">
+		<DieRoll Sides="100" />
+		<Row HighRoll="67">
+			<TableRoll TableName="III.D. Rods and Staves" />
+		</Row>
+		<Row HighRoll="100">
+			<TableRoll TableName="III.D.2. Wands" />
+		</Row>
+	</Table>
+
+	<Table TableName="III. Miscellaneous Magic">
+		<DieRoll Sides="100" />
+		<Row HighRoll="14">
+			<TableRoll TableName="III.E.1. Miscellaneous Magic" />
+		</Row>
+		<Row HighRoll="28">
+			<TableRoll TableName="III.E.2. Miscellaneous Magic" />
+		</Row>
+		<Row HighRoll="42">
+			<TableRoll TableName="III.E.3. Miscellaneous Magic" />
+		</Row>
+		<Row HighRoll="56">
+			<TableRoll TableName="III.E.4. Miscellaneous Magic" />
+		</Row>
+		<Row HighRoll="70">
+			<TableRoll TableName="III.E.5. Miscellaneous Magic" />
+		</Row>
+		<Row HighRoll="85">
+			<TableRoll TableName="III.E.6. Miscellaneous Magic" />
+		</Row>
+		<Row HighRoll="100">
+			<TableRoll TableName="III.E.7. Miscellaneous Magic" />
+		</Row>
+	</Table>
+
+	<Table TableName="III.E.1. Miscellaneous Magic">
+		<DieRoll Sides="100"/>
+		<Row HighRoll="2">
+			<GameObject Name="Alchemy Jug"/>
+		</Row>
+		<Row HighRoll="4">
+			<GameObject Name="Inescapable Location"/>
+		</Row>
+		<Row HighRoll="5">
+			<GameObject Name="Amulet of Life Protection"/>
+		</Row>
+		<Row HighRoll="7">
+			<GameObject Name="Amulet of the Planes"/>
+		</Row>
+		<Row HighRoll="11">
+			<GameObject Name="Amulet of Proof Against Detection and Location"/>
+		</Row>
+		<Row HighRoll="13">
+			<GameObject Name="Apparatus of Kwalish"/>
+		</Row>
+		<Row HighRoll="16">
+			<GameObject Name="Arrow of Direction"/>
+		</Row>
+		<Row HighRoll="17">
+			<GameObject Name="Artifact or Relic (DMG 124)"/>
+		</Row>
+		<Row HighRoll="20">
+			<GameObject Name="Bag of Beans"/>
+		</Row>
+		<Row HighRoll="21">
+			<GameObject Name="Bag of Devouring"/>
+		</Row>
+		<Row HighRoll="26">
+			<GameObject Name="Bag of Holding"/>
+		</Row>
+		<Row HighRoll="27">
+			<GameObject Name="Bag of Transmuting"/>
+		</Row>
+		<Row HighRoll="29">
+			<GameObject Name="Bag of Tricks"/>
+		</Row>
+		<Row HighRoll="31">
+			<GameObject Name="Beaker of Plentiful Potions"/>
+		</Row>
+		<Row HighRoll="32">
+			<GameObject Name="Folding Boat"/>
+		</Row>
+		<Row HighRoll="33">
+			<GameObject Name="Book of Exalted Deeds (C)"/>
+		</Row>
+		<Row HighRoll="34">
+			<GameObject Name="Book of Infinite Spells"/>
+		</Row>
+		<Row HighRoll="35">
+			<GameObject Name="Book of Vile Darkness (C)"/>
+		</Row>
+		<Row HighRoll="36">
+			<GameObject Name="Boots of Dancing"/>
+		</Row>
+		<Row HighRoll="42">
+			<GameObject Name="Boots of Elvenkind"/>
+		</Row>
+		<Row HighRoll="47">
+			<GameObject Name="Boots of Levitation"/>
+		</Row>
+		<Row HighRoll="51">
+			<GameObject Name="Boots of Speed"/>
+		</Row>
+		<Row HighRoll="55">
+			<GameObject Name="Boots of Striding and Springing"/>
+		</Row>
+		<Row HighRoll="58">
+			<GameObject Name="Bowl Commanding Water Elementals (M)"/>
+		</Row>
+		<Row HighRoll="59">
+			<GameObject Name="Bowl of Watery Death (M)"/>
+		</Row>
+		<Row HighRoll="79">
+			<GameObject Name="Bracers of Defense"/>
+		</Row>
+		<Row HighRoll="81">
+			<GameObject Name="Bracers of Defenselessness"/>
+		</Row>
+		<Row HighRoll="84">
+			<GameObject Name="Brazier Commanding Fire Elementals (M)"/>
+		</Row>
+		<Row HighRoll="85">
+			<GameObject Name="Brazier of Sleep Smoke (M)"/>
+		</Row>
+		<Row HighRoll="92">
+			<GameObject Name="Brooch of Shielding"/>
+		</Row>
+		<Row HighRoll="93">
+			<GameObject Name="Brooch of Animated Attack"/>
+		</Row>
+		<Row HighRoll="98">
+			<GameObject Name="Broom of Flying"/>
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Bucknard's Everfull Purse"/>
+		</Row>
+	</Table>
+
+	<Table TableName="III.E.2. Miscellaneous Magic">
+		<DieRoll Sides="100"/>
+		<Row HighRoll="6">
+			<GameObject Name="Candle of Invocation (C)"/>
+		</Row>
+		<Row HighRoll="8">
+			<GameObject Name="Carpet of Flying"/>
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="Censer Controlling Air Elementals (M)"/>
+		</Row>
+		<Row HighRoll="11">
+			<GameObject Name="Censer Summoning Hostile Air Elementals (M)"/>
+		</Row>
+		<Row HighRoll="13">
+			<GameObject Name="Chime of Opening"/>
+		</Row>
+		<Row HighRoll="14">
+			<GameObject Name="Chime of Hunger"/>
+		</Row>
+		<Row HighRoll="18">
+			<GameObject Name="Cloak of Displacement"/>
+		</Row>
+		<Row HighRoll="27">
+			<GameObject Name="Cloak of Elvenkind"/>
+		</Row>
+		<Row HighRoll="30">
+			<GameObject Name="Cloak of Manta Ray"/>
+		</Row>
+		<Row HighRoll="32">
+			<GameObject Name="Cloak of Poisonousness"/>
+		</Row>
+		<Row HighRoll="55">
+			<GameObject Name="Cloak of Protection"/>
+		</Row>
+		<Row HighRoll="60">
+			<GameObject Name="Crystal Ball (M)"/>
+		</Row>
+		<Row HighRoll="61">
+			<GameObject Name="Crystal Hypnosis Ball (M)"/>
+		</Row>
+		<Row HighRoll="63">
+			<GameObject Name="Cube of Force"/>
+		</Row>
+		<Row HighRoll="65">
+			<GameObject Name="Cube of Frost Resistance"/>
+		</Row>
+		<Row HighRoll="67">
+			<GameObject Name="Cubic Gate"/>
+		</Row>
+		<Row HighRoll="69">
+			<GameObject Name="Daem's Instant Fortress"/>
+		</Row>
+		<Row HighRoll="72">
+			<GameObject Name="Decanter of Endless Water"/>
+		</Row>
+		<Row HighRoll="76">
+			<GameObject Name="Deck of Many Things"/>
+		</Row>
+		<Row HighRoll="77">
+			<GameObject Name="Drums of Deafening"/>
+		</Row>
+		<Row HighRoll="79">
+			<GameObject Name="Drums of Panic"/>
+		</Row>
+		<Row HighRoll="85">
+			<GameObject Name="Dust of Appearance"/>
+		</Row>
+		<Row HighRoll="91">
+			<GameObject Name="Dust Disappearance"/>
+		</Row>
+		<Row HighRoll="92">
+			<GameObject Name="Dust of Sneezing and Choking"/>
+		</Row>
+		<Row HighRoll="93">
+			<GameObject Name="Efreeti Bottle"/>
+		</Row>
+		<Row HighRoll="94">
+			<GameObject Name="Eversmoking Bottle"/>
+		</Row>
+		<Row HighRoll="95">
+			<GameObject Name="Eyes of Charming (M)"/>
+		</Row>
+		<Row HighRoll="97">
+			<GameObject Name="Eyes of the Eagle"/>
+		</Row>
+		<Row HighRoll="99">
+			<GameObject Name="Eyes of Minute Seeing"/>
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Eyes of Petrification"/>
+		</Row>
+	</Table>
+
+	<Table TableName="III.E.3. Miscellaneous Magic">
+		<DieRoll Sides="100"/>
+		<Row HighRoll="15">
+			<GameObject Name="Figurines of Wondrous Power"/>
+		</Row>
+		<Row HighRoll="16">
+			<GameObject Name="Flask of Curses"/>
+		</Row>
+		<Row HighRoll="18">
+			<GameObject Name="Gauntlets of Dexterity"/>
+		</Row>
+		<Row HighRoll="20">
+			<GameObject Name="Gauntlets of Fumbling"/>
+		</Row>
+		<Row HighRoll="22">
+			<GameObject Name="Gauntlets of Ogre Power (C,F,T)"/>
+		</Row>
+		<Row HighRoll="25">
+			<GameObject Name="Gauntlets of Swimming and Climbing"/>
+		</Row>
+		<Row HighRoll="26">
+			<GameObject Name="Gem of Brightness"/>
+		</Row>
+		<Row HighRoll="27">
+			<GameObject Name="Gem of Seeing"/>
+		</Row>
+		<Row HighRoll="28">
+			<GameObject Name="Girdle of Femininity/Masculinity (C,F,T)"/>
+		</Row>
+		<Row HighRoll="29">
+			<GameObject Name="Girdle of Giant Strength (C,F,T)"/>
+		</Row>
+		<Row HighRoll="30">
+			<GameObject Name="Helm of Brilliance"/>
+		</Row>
+		<Row HighRoll="35">
+			<GameObject Name="Helm of Comprehending Languages and Reading Magic"/>
+		</Row>
+		<Row HighRoll="37">
+			<GameObject Name="Helm of Opposite Alignment"/>
+		</Row>
+		<Row HighRoll="39">
+			<GameObject Name="Helm of Telepathy"/>
+		</Row>
+		<Row HighRoll="40">
+			<GameObject Name="Helm of Teleportation"/>
+		</Row>
+		<Row HighRoll="45">
+			<GameObject Name="Horn of Underwater Action"/>
+		</Row>
+		<Row HighRoll="46">
+			<GameObject Name="Horn of Blasting"/>
+		</Row>
+		<Row HighRoll="48">
+			<GameObject Name="Horn of Bubbles"/>
+		</Row>
+		<Row HighRoll="49">
+			<GameObject Name="Horn of Collapsing"/>
+		</Row>
+		<Row HighRoll="53">
+			<GameObject Name="Horn of the Tritons"/>
+		</Row>
+		<Row HighRoll="60">
+			<GameObject Name="Horn of Valhalla"/>
+		</Row>
+		<Row HighRoll="63">
+			<GameObject Name="Horseshoes of Speed"/>
+		</Row>
+		<Row HighRoll="65">
+			<GameObject Name="Horeseshoes of a Zephyr"/>
+		</Row>
+		<Row HighRoll="70">
+			<GameObject Name="Incense of Meditation (C)"/>
+		</Row>
+		<Row HighRoll="71">
+			<GameObject Name="Incense of Obsession (C)"/>
+		</Row>
+		<Row HighRoll="72">
+			<GameObject Name="Ioun Stones"/>
+		</Row>
+		<Row HighRoll="78">
+			<GameObject Name="Instrument of the Bards"/>
+		</Row>
+		<Row HighRoll="80">
+			<GameObject Name="Iron Flask"/>
+		</Row>
+		<Row HighRoll="85">
+			<GameObject Name="Javelin of Lightning (F)"/>
+		</Row>
+		<Row HighRoll="90">
+			<GameObject Name="Javelin of Piercing (F)"/>
+		</Row>
+		<Row HighRoll="91">
+			<GameObject Name="Jewel of Attacks"/>
+		</Row>
+		<Row HighRoll="92">
+			<GameObject Name="Jewel of Flawlessness"/>
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Keoghtom's Ointment"/>
+		</Row>
+	</Table>
+
+	<Table TableName="III.E.4. Miscellaneous Magic">
+		<DieRoll Sides="100"/>
+		<Row HighRoll="1">
+			<GameObject Name="Libram of Gainful Conjuration (M)"/>
+		</Row>
+		<Row HighRoll="2">
+			<GameObject Name="Libram of Ineffable Damnation (M)"/>
+		</Row>
+		<Row HighRoll="3">
+			<GameObject Name="Libram of Silver Magic (M)"/>
+		</Row>
+		<Row HighRoll="4">
+			<GameObject Name="Lyre of Building"/>
+		</Row>
+		<Row HighRoll="5">
+			<GameObject Name="Manual of Bodily Health"/>
+		</Row>
+		<Row HighRoll="6">
+			<GameObject Name="Manual of Gainful Exercise"/>
+		</Row>
+		<Row HighRoll="7">
+			<GameObject Name="Manual of Golems (C,M)"/>
+		</Row>
+		<Row HighRoll="8">
+			<GameObject Name="Manual of Puilssant Skill at Arms (F)"/>
+		</Row>
+		<Row HighRoll="9">
+			<GameObject Name="Manual of Quickness of Action"/>
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="Manual of Stealthy Pilfering (T)"/>
+		</Row>
+		<Row HighRoll="11">
+			<GameObject Name="Mattock of the Titans"/>
+		</Row>
+		<Row HighRoll="12">
+			<GameObject Name="Maul of the Titans"/>
+		</Row>
+		<Row HighRoll="15">
+			<GameObject Name="Medallion of ESP"/>
+		</Row>
+		<Row HighRoll="17">
+			<GameObject Name="Medallion of Thought Projection"/>
+		</Row>
+		<Row HighRoll="18">
+			<GameObject Name="Mirror of Life Trapping (M)"/>
+		</Row>
+		<Row HighRoll="19">
+			<GameObject Name="Mirror of Mental Prowess"/>
+		</Row>
+		<Row HighRoll="20">
+			<GameObject Name="Mirror of Opposition"/>
+		</Row>
+		<Row HighRoll="23">
+			<GameObject Name="Necklace of Adaptation"/>
+		</Row>
+		<Row HighRoll="27">
+			<GameObject Name="Necklace of Missiles"/>
+		</Row>
+		<Row HighRoll="33">
+			<GameObject Name="Necklace of Prayer Beads (C)"/>
+		</Row>
+		<Row HighRoll="35">
+			<GameObject Name="Necklace of Strangulation"/>
+		</Row>
+		<Row HighRoll="38">
+			<GameObject Name="Net of Entrapment (C,F,T)"/>
+		</Row>
+		<Row HighRoll="42">
+			<GameObject Name="Net of Snaring (C,F,T)"/>
+		</Row>
+		<Row HighRoll="44">
+			<GameObject Name="Nolzur's Marvelous Pigments"/>
+		</Row>
+		<Row HighRoll="46">
+			<GameObject Name="Pearl of Power (M)"/>
+		</Row>
+		<Row HighRoll="48">
+			<GameObject Name="Pearl of Wisdom (C)"/>
+		</Row>
+		<Row HighRoll="50">
+			<GameObject Name="Periapt of Foul Rotting"/>
+		</Row>
+		<Row HighRoll="53">
+			<GameObject Name="Periapt of Health"/>
+		</Row>
+		<Row HighRoll="60">
+			<GameObject Name="Periapt of Proof Against Poison"/>
+		</Row>
+		<Row HighRoll="64">
+			<GameObject Name="Periapt of Wound Closure"/>
+		</Row>
+		<Row HighRoll="70">
+			<GameObject Name="Phylactery of Faithfulness (C)"/>
+		</Row>
+		<Row HighRoll="74">
+			<GameObject Name="Phylactery of Long Years (C)"/>
+		</Row>
+		<Row HighRoll="76">
+			<GameObject Name="Phylactery of Monstrous Attnention (C)"/>
+		</Row>
+		<Row HighRoll="84">
+			<GameObject Name="Pipes of the Sewers"/>
+		</Row>
+		<Row HighRoll="85">
+			<GameObject Name="Portable Hole"/>
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Quaal's Feather Token"/>
+		</Row>
+	</Table>
+
+	<Table TableName="III.E.5. Miscellaneous Magic">
+		<DieRoll Sides="100"/>
+		<Row HighRoll="1">
+			<GameObject Name="Robe of the Archmagi (M)"/>
+		</Row>
+		<Row HighRoll="8">
+			<GameObject Name="Robe of Blending"/>
+		</Row>
+		<Row HighRoll="9">
+			<GameObject Name="Robe of Eyes (M)"/>
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="Robe of Powerlessness (M)"/>
+		</Row>
+		<Row HighRoll="11">
+			<GameObject Name="Robe of Scintillating Colors (C,M)"/>
+		</Row>
+		<Row HighRoll="19">
+			<GameObject Name="Robe of Useful Items (M)"/>
+		</Row>
+		<Row HighRoll="25">
+			<GameObject Name="Rope of Climbing"/>
+		</Row>
+		<Row HighRoll="27">
+			<GameObject Name="Rope of Constriction"/>
+		</Row>
+		<Row HighRoll="31">
+			<GameObject Name="Rope of Entanglement"/>
+		</Row>
+		<Row HighRoll="32">
+			<GameObject Name="Rug of Smothering"/>
+		</Row>
+		<Row HighRoll="33">
+			<GameObject Name="Rug of Welcome (M)"/>
+		</Row>
+		<Row HighRoll="34">
+			<GameObject Name="Saw of Mighty Cutting (F)"/>
+		</Row>
+		<Row HighRoll="35">
+			<GameObject Name="Scarab of Death"/>
+		</Row>
+		<Row HighRoll="38">
+			<GameObject Name="Scarab of Enraging Enemies"/>
+		</Row>
+		<Row HighRoll="40">
+			<GameObject Name="Scarab of Insanity"/>
+		</Row>
+		<Row HighRoll="46">
+			<GameObject Name="Scarab of Protection"/>
+		</Row>
+		<Row HighRoll="47">
+			<GameObject Name="Spade of Colossal Excavation (F)"/>
+		</Row>
+		<Row HighRoll="48">
+			<GameObject Name="Sphere of Annihilation (M)"/>
+		</Row>
+		<Row HighRoll="50">
+			<GameObject Name="Stone of Controlling Earth Elementals"/>
+		</Row>
+		<Row HighRoll="52">
+			<GameObject Name="Stone of Good Luck (Luckstone)"/>
+		</Row>
+		<Row HighRoll="54">
+			<GameObject Name="Stone of Weight (Loadstone)"/>
+		</Row>
+		<Row HighRoll="57">
+			<GameObject Name="Talisman of Pure Good (C)"/>
+		</Row>
+		<Row HighRoll="58">
+			<GameObject Name="Talisman of the Sphere (M)"/>
+		</Row>
+		<Row HighRoll="60">
+			<GameObject Name="Talisman of Ultimate Evil (C)"/>
+		</Row>
+		<Row HighRoll="66">
+			<GameObject Name="Talisman of Zagy"/>
+		</Row>
+		<Row HighRoll="67">
+			<GameObject Name="Tome of Clear Thought"/>
+		</Row>
+		<Row HighRoll="68">
+			<GameObject Name="Tome of Leadership and Influence"/>
+		</Row>
+		<Row HighRoll="69">
+			<GameObject Name="Tome of Understanding"/>
+		</Row>
+		<Row HighRoll="76">
+			<GameObject Name="Trident of Fish Command (C,F,T)"/>
+		</Row>
+		<Row HighRoll="78">
+			<GameObject Name="Trident of Submission (F)"/>
+		</Row>
+		<Row HighRoll="83">
+			<GameObject Name="Trident of Warning (C,F,T)"/>
+		</Row>
+		<Row HighRoll="85">
+			<GameObject Name="Trident of Yearning"/>
+		</Row>
+		<Row HighRoll="87">
+			<GameObject Name="Vacuous Grimoire"/>
+		</Row>
+		<Row HighRoll="90">
+			<GameObject Name="Well of Many Worlds"/>
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Wings of Flying"/>
+		</Row>
+	</Table>
+
+	<Table TableName="III.E.6. Miscellaneous Magic">
+		<DieRoll Sides="100"/>
+		<Row HighRoll="4">
+			<GameObject Name="Amulet Versus Undead"/>
+		</Row>
+		<Row HighRoll="5">
+			<GameObject Name="Anything Item"/>
+		</Row>
+		<Row HighRoll="7">
+			<GameObject Name="Beads of Force"/>
+		</Row>
+		<Row HighRoll="14">
+			<GameObject Name="Boccob's Blessed Book (M)"/>
+		</Row>
+		<Row HighRoll="16">
+			<GameObject Name="Boots of the North"/>
+		</Row>
+		<Row HighRoll="19">
+			<GameObject Name="Boots of Varied Tracks"/>
+		</Row>
+		<Row HighRoll="20">
+			<GameObject Name="Winged Boots"/>
+		</Row>
+		<Row HighRoll="24">
+			<GameObject Name="Bracers of Archery (F)"/>
+		</Row>
+		<Row HighRoll="26">
+			<GameObject Name="Bracers of Brachiation"/>
+		</Row>
+		<Row HighRoll="28">
+			<GameObject Name="Chime of Interruption"/>
+		</Row>
+		<Row HighRoll="30">
+			<GameObject Name="Cloak of Arachnidia"/>
+		</Row>
+		<Row HighRoll="34">
+			<GameObject Name="Cloak of the Bat"/>
+		</Row>
+		<Row HighRoll="36">
+			<GameObject Name="Cyclocone (M)"/>
+		</Row>
+		<Row HighRoll="40">
+			<GameObject Name="Dart of the Hornets' Nest"/>
+		</Row>
+		<Row HighRoll="42">
+			<GameObject Name="Deck of Illusions"/>
+		</Row>
+		<Row HighRoll="44">
+			<GameObject Name="Dicerion of Light and Darkness"/>
+		</Row>
+		<Row HighRoll="47">
+			<GameObject Name="Dust of Dryness"/>
+		</Row>
+		<Row HighRoll="50">
+			<GameObject Name="Dust of Illusion"/>
+		</Row>
+		<Row HighRoll="54">
+			<GameObject Name="Dust of Tracelessness"/>
+		</Row>
+		<Row HighRoll="56">
+			<GameObject Name="Egg of Desire"/>
+		</Row>
+		<Row HighRoll="60">
+			<GameObject Name="Egg of Reason"/>
+		</Row>
+		<Row HighRoll="62">
+			<GameObject Name="Egg of Shattering"/>
+		</Row>
+		<Row HighRoll="65">
+			<GameObject Name="Gem of Insight"/>
+		</Row>
+		<Row HighRoll="68">
+			<GameObject Name="Girdle of Dwarvenkind"/>
+		</Row>
+		<Row HighRoll="76">
+			<GameObject Name="Girdle of Many Pouches"/>
+		</Row>
+		<Row HighRoll="79">
+			<GameObject Name="Gloves of Missile Snaring"/>
+		</Row>
+		<Row HighRoll="83">
+			<GameObject Name="Globes of Thievery"/>
+		</Row>
+		<Row HighRoll="88">
+			<GameObject Name="Hat of Difference"/>
+		</Row>
+		<Row HighRoll="95">
+			<GameObject Name="Hat of Disguise"/>
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Hat of Stupidity"/>
+		</Row>
+	</Table>
+
+	<Table TableName="III.E.7. Miscellaneous Magic">
+		<DieRoll Sides="100"/>
+		<Row HighRoll="5">
+			<GameObject Name="Heward's Handy Haversack"/>
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="Horn of Fog"/>
+		</Row>
+		<Row HighRoll="12">
+			<GameObject Name="Horn of Goodness (Evil)"/>
+		</Row>
+		<Row HighRoll="14">
+			<GameObject Name="Iron Bands of Bilarro"/>
+		</Row>
+		<Row HighRoll="18">
+			<GameObject Name="Lens of Detection"/>
+		</Row>
+		<Row HighRoll="21">
+			<GameObject Name="Lens of Ultravision"/>
+		</Row>
+		<Row HighRoll="23">
+			<GameObject Name="Mantle of Celestian"/>
+		</Row>
+		<Row HighRoll="27">
+			<GameObject Name="Murlynd's Spoon"/>
+		</Row>
+		<Row HighRoll="29">
+			<GameObject Name="Pearl of the Sirines"/>
+		</Row>
+		<Row HighRoll="31">
+			<GameObject Name="Philosopher's Stone"/>
+		</Row>
+		<Row HighRoll="37">
+			<GameObject Name="Pouch of Accessibility"/>
+		</Row>
+		<Row HighRoll="38">
+			<GameObject Name="Prison of Zagyg (M)"/>
+		</Row>
+		<Row HighRoll="40">
+			<GameObject Name="Quiver of Ehlonna"/>
+		</Row>
+		<Row HighRoll="42">
+			<GameObject Name="Robe of Stars (M)"/>
+		</Row>
+		<Row HighRoll="48">
+			<GameObject Name="Robe of Vermin (M)"/>
+		</Row>
+		<Row HighRoll="50">
+			<GameObject Name="Scarab Versus Golems"/>
+		</Row>
+		<Row HighRoll="54">
+			<GameObject Name="Shadow Lanthorn"/>
+		</Row>
+		<Row HighRoll="57">
+			<GameObject Name="Sheet of Smallness"/>
+		</Row>
+		<Row HighRoll="59">
+			<GameObject Name="Shoes of Fharlanghn"/>
+		</Row>
+		<Row HighRoll="64">
+			<GameObject Name="Slippers of Kicking"/>
+		</Row>
+		<Row HighRoll="70">
+			<GameObject Name="Slippers of Spider Climbing"/>
+		</Row>
+		<Row HighRoll="72">
+			<GameObject Name="Sovereign Glue"/>
+		</Row>
+		<Row HighRoll="77">
+			<GameObject Name="Spoon of Stirring"/>
+		</Row>
+		<Row HighRoll="81">
+			<GameObject Name="Stone Horse"/>
+		</Row>
+		<Row HighRoll="84">
+			<GameObject Name="Ultimate Solution"/>
+		</Row>
+		<Row HighRoll="88">
+			<GameObject Name="Wind Fan"/>
+		</Row>
+		<Row HighRoll="92">
+			<GameObject Name="Zagyg's Flowing Flagon"/>
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Zagyg's Spell Component Case (M)"/>
+		</Row>
+	</Table>
+
+	<Table TableName="III. Armor and Shields">
+		<DieRoll Sides="100" />
+		<Row HighRoll="50">
+			<TableRoll TableName="III.F. Armor and Shield" />
+		</Row>
+		<Row HighRoll="100">
+			<TableRoll TableName="III.F.2. Armor and Shield" />
+		</Row>
+	</Table>
+
+	<Table TableName="III. Swords">
+		<DieRoll Sides="100" />
+		<Row HighRoll="95">
+			<TableRoll TableName="III.G. Swords" />
+		</Row>
+		<Row HighRoll="100">
+			<TableRoll TableName="III.G.2. Swords" />
+		</Row>
+	</Table>
+
+	<Table TableName="III. Miscellaneous Weapons">
+		<DieRoll Sides="100" />
+		<Row HighRoll="50">
+			<TableRoll TableName="III.H. Miscellaneous Weapons" />
+		</Row>
+		<Row HighRoll="100">
+			<TableRoll TableName="III.H.2. Miscellaneous Weapons" />
+		</Row>
+	</Table>
+
+	<Table TableName="III.A. Potions">
+		<DieRoll Sides="100" />
+		<Row HighRoll="3">
+			<GameObject Name="Potion of Animal Control" />
+		</Row>
+		<Row HighRoll="6">
+			<GameObject Name="Potion of Clairaudience" />
+		</Row>
+		<Row HighRoll="3">
+			<GameObject Name="Potion of Clairvoyance" />
+		</Row>
+		<Row HighRoll="12">
+			<GameObject Name="Potion of Climbing" />
+		</Row>
+		<Row HighRoll="15">
+			<GameObject Name="Potion of Delusion" />
+		</Row>
+		<Row HighRoll="18">
+			<GameObject Name="Potion of Diminution" />
+		</Row>
+		<Row HighRoll="20">
+			<GameObject Name="Potion of Dragon Control" />
+		</Row>
+		<Row HighRoll="23">
+			<GameObject Name="Potion of ESP" />
+		</Row>
+		<Row HighRoll="26">
+			<GameObject Name="Potion of Extra-Healing" />
+		</Row>
+		<Row HighRoll="29">
+			<GameObject Name="Potion of Fire Resistance" />
+		</Row>
+		<Row HighRoll="32">
+			<GameObject Name="Potion of Flying" />
+		</Row>
+		<Row HighRoll="34">
+			<GameObject Name="Potion of Gaseous Form" />
+		</Row>
+		<Row HighRoll="36">
+			<GameObject Name="Potion of Giant Control" />
+		</Row>
+		<Row HighRoll="39">
+			<GameObject Name="Potion of Giant Strength (F)" />
+		</Row>
+		<Row HighRoll="41">
+			<GameObject Name="Potion of Growth" />
+		</Row>
+		<Row HighRoll="47">
+			<GameObject Name="Potion of Healing" />
+		</Row>
+		<Row HighRoll="49">
+			<GameObject Name="Potion of Heroism (F)" />
+		</Row>
+		<Row HighRoll="51">
+			<GameObject Name="Potion of Human Control" />
+		</Row>
+		<Row HighRoll="54">
+			<GameObject Name="Potion of Invisibility" />
+		</Row>
+		<Row HighRoll="57">
+			<GameObject Name="Potion of Invulnerability (F)" />
+		</Row>
+		<Row HighRoll="60">
+			<GameObject Name="Potion of Levitation" />
+		</Row>
+		<Row HighRoll="63">
+			<GameObject Name="Potion of Longevity" />
+		</Row>
+		<Row HighRoll="66">
+			<GameObject Name="Oil of Etherealness" />
+		</Row>
+		<Row HighRoll="69">
+			<GameObject Name="Oil of Slipperiness" />
+		</Row>
+		<Row HighRoll="72">
+			<GameObject Name="Philter of Love" />
+		</Row>
+		<Row HighRoll="75">
+			<GameObject Name="Philter of Persuasiveness" />
+		</Row>
+		<Row HighRoll="78">
+			<GameObject Name="Potion of Plant Control" />
+		</Row>
+		<Row HighRoll="81">
+			<GameObject Name="Potion of Polymorph (self)" />
+		</Row>
+		<Row HighRoll="84">
+			<GameObject Name="Potion of Poison" />
+		</Row>
+		<Row HighRoll="87">
+			<GameObject Name="Potion of Speed" />
+		</Row>
+		<Row HighRoll="90">
+			<GameObject Name="Potion of Super-Heroism (F)" />
+		</Row>
+		<Row HighRoll="93">
+			<GameObject Name="Potion of Sweet Water" />
+		</Row>
+		<Row HighRoll="96">
+			<GameObject Name="Potion of Treasure Finding" />
+		</Row>
+		<Row HighRoll="97">
+			<GameObject Name="Potion of Undead Control" />
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Potion of Water Breathing" />
+		</Row>
+	</Table>
+
+	<Table TableName="III.A.2. Potions">
+		<DieRoll Sides="100" />
+		<Row HighRoll="5">
+			<GameObject Name="Elixir of Health" />
+		</Row>
+		<Row HighRoll="15">
+			<GameObject Name="Elixir of Life" />
+		</Row>
+		<Row HighRoll="20">
+			<GameObject Name="Elixir of Madness" />
+		</Row>
+		<Row HighRoll="25">
+			<GameObject Name="Elixir of Youth" />
+		</Row>
+		<Row HighRoll="30">
+			<GameObject Name="Potion of Fire Breath" />
+		</Row>
+		<Row HighRoll="35">
+			<GameObject Name="Oil of Acid Resistance" />
+		</Row>
+		<Row HighRoll="40">
+			<GameObject Name="Oil of Disenchantment" />
+		</Row>
+		<Row HighRoll="45">
+			<GameObject Name="Oil of Elemental Invulnerability" />
+		</Row>
+		<Row HighRoll="49">
+			<GameObject Name="Oil of Fiery Burning" />
+		</Row>
+		<Row HighRoll="55">
+			<GameObject Name="Oil of Fumbling" />
+		</Row>
+		<Row HighRoll="60">
+			<GameObject Name="Oil of Impact" />
+		</Row>
+		<Row HighRoll="65">
+			<GameObject Name="Oil of Sharpness" />
+		</Row>
+		<Row HighRoll="70">
+			<GameObject Name="Oil of Timelessness" />
+		</Row>
+		<Row HighRoll="75">
+			<GameObject Name="Philter of Beauty" />
+		</Row>
+		<Row HighRoll="80">
+			<GameObject Name="Philter of Glibness" />
+		</Row>
+		<Row HighRoll="85">
+			<GameObject Name="Philter of Stammering and Stuttering" />
+		</Row>
+		<Row HighRoll="90">
+			<GameObject Name="Potion of Rainbow Hues" />
+		</Row>
+		<Row HighRoll="95">
+			<GameObject Name="Potion of Ventriloquism" />
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Potion of Vitality" />
+		</Row>
+
+	</Table>
+
+	<Table TableName="III.B. Scrolls">
+		<DieRoll Sides="100" />
+		<Row HighRoll="10">
+			<GameObject Name="Scroll, 1 spell, level 1-4" />
+		</Row>
+		<Row HighRoll="16">
+			<GameObject Name="Scroll, 1 spell, level 1-6" />
+		</Row>
+		<Row HighRoll="19">
+			<GameObject Name="Scroll, 1 spell, level 2-9(M) or 2-7(C)" />
+		</Row>
+		<Row HighRoll="24">
+			<GameObject Name="Scroll, 2 spells, level 1-4" />
+		</Row>
+		<Row HighRoll="27">
+			<GameObject Name="Scroll, 2 spells, level 1-8(M) or 1-6(C)" />
+		</Row>
+		<Row HighRoll="32">
+			<GameObject Name="Scroll, 3 spells, level 1-4" />
+		</Row>
+		<Row HighRoll="35">
+			<GameObject Name="Scroll, 3 spells, level 2-9(M) or 2-7(C)" />
+		</Row>
+		<Row HighRoll="39">
+			<GameObject Name="Scroll, 4 spells, level 1-6" />
+		</Row>
+		<Row HighRoll="42">
+			<GameObject Name="Scroll, 4 spells, level 1-8(M) or 1-6(C)" />
+		</Row>
+		<Row HighRoll="46">
+			<GameObject Name="Scroll, 5 spells, level 1-6" />
+		</Row>
+		<Row HighRoll="49">
+			<GameObject Name="Scroll, 5 spells, level 1-8(M) or 1-7(C)" />
+		</Row>
+		<Row HighRoll="51">
+			<GameObject Name="Scroll, 6 spells, level 1-6" />
+		</Row>
+		<Row HighRoll="54">
+			<GameObject Name="Scroll, 6 spells, level 3-8 (d6+2)(M) or 3-6 (d4+2)(C)" />
+		</Row>
+		<Row HighRoll="57">
+			<GameObject Name="Scroll, 7 spells, level 1-8" />
+		</Row>
+		<Row HighRoll="59">
+			<GameObject Name="Scroll, 7 spells, level 2-9(M) or 2-7(C)" />
+		</Row>
+		<Row HighRoll="60">
+			<GameObject Name="Scroll, 7 spells, level 4-9(d6+3)(M) or 4-7(d4+3)(C)" />
+		</Row>
+		<Row HighRoll="62">
+			<GameObject Name="Scroll, Protection from Demons" />
+		</Row>
+		<Row HighRoll="64">
+			<GameObject Name="Scroll, Protection from Devils" />
+		</Row>
+		<Row HighRoll="70">
+			<GameObject Name="Scroll, Protection from Elementals" />
+		</Row>
+		<Row HighRoll="76">
+			<GameObject Name="Scroll, Protection from Lycanthropes" />
+		</Row>
+		<Row HighRoll="82">
+			<GameObject Name="Scroll, Protection from Magic" />
+		</Row>
+		<Row HighRoll="87">
+			<GameObject Name="Scroll, Protection from Petrification" />
+		</Row>
+		<Row HighRoll="92">
+			<GameObject Name="Scroll, Protection from Possession" />
+		</Row>
+		<Row HighRoll="97">
+			<GameObject Name="Scroll, Protection from Undead" />
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Curse" />
+		</Row>
+	</Table>
+
+	<Table TableName="III.B.2. Scrolls">
+		<DieRoll Sides="100" />
+		<Row HighRoll="2">
+			<GameObject Name="Scroll, Protection from Acid" />
+		</Row>
+		<Row HighRoll="7">
+			<GameObject Name="Scroll, Protection from Breath Weapons, Dragon" />
+		</Row>
+		<Row HighRoll="12">
+			<GameObject Name="Scroll, Protection from Breath Weapons, Non-dragon" />
+		</Row>
+		<Row HighRoll="17">
+			<GameObject Name="Scroll, Protection from Cold" />
+		</Row>
+		<Row HighRoll="22">
+			<GameObject Name="Scroll, Protection from Electricity" />
+		</Row>
+		<Row HighRoll="27">
+			<GameObject Name="Scroll, Protection from Fire" />
+		</Row>
+		<Row HighRoll="32">
+			<GameObject Name="Scroll, Protection from Gas" />
+		</Row>
+		<Row HighRoll="37">
+			<GameObject Name="Scroll, Protection from Illusions" />
+		</Row>
+		<Row HighRoll="42">
+			<GameObject Name="Scroll, Protection from Paralyzation" />
+		</Row>
+		<Row HighRoll="48">
+			<GameObject Name="Scroll, Protection from Plants" />
+		</Row>
+		<Row HighRoll="54">
+			<GameObject Name="Scroll, Protection from Poison" />
+		</Row>
+		<Row HighRoll="59">
+			<GameObject Name="Scroll, Protection from Traps" />
+		</Row>
+		<Row HighRoll="64">
+			<GameObject Name="Scroll, Protection from Water" />
+		</Row>
+		<Row HighRoll="70">
+			<GameObject Name="Scroll, Protection from magical blunt weapons" />
+		</Row>
+		<Row HighRoll="76">
+			<GameObject Name="Scroll, Protection from magical edged weapons" />
+		</Row>
+		<Row HighRoll="82">
+			<GameObject Name="Scroll, Protection from magical missile weapons" />
+		</Row>
+		<Row HighRoll="88">
+			<GameObject Name="Scroll, Protection from normal blunt" />
+		</Row>
+		<Row HighRoll="94">
+			<GameObject Name="Scroll, Protection from normal edged" />
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Scroll, Protection from normal missiles" />
+		</Row>
+	</Table>
+
+	<Table TableName="III.C. Rings">
+		<DieRoll Sides="100" />
+		<Row HighRoll="6">
+			<GameObject Name="Ring of Contrariness" />
+		</Row>
+		<Row HighRoll="12">
+			<GameObject Name="Ring of Delusion" />
+		</Row>
+		<Row HighRoll="14">
+			<GameObject Name="Ring of Djinnin Summoning *" />
+		</Row>
+		<Row HighRoll="15">
+			<GameObject Name="Ring of Elemental Command" />
+		</Row>
+		<Row HighRoll="21">
+			<GameObject Name="Ring of Feather Falling" />
+		</Row>
+		<Row HighRoll="27">
+			<GameObject Name="Ring of Fire Resistance" />
+		</Row>
+		<Row HighRoll="30">
+			<GameObject Name="Ring of Free Action" />
+		</Row>
+		<Row HighRoll="33">
+			<GameObject Name="Ring of Human Influence *" />
+		</Row>
+		<Row HighRoll="40">
+			<GameObject Name="Ring of Invisibility" />
+		</Row>
+		<Row HighRoll="43">
+			<GameObject Name="Ring of Mammal Control *" />
+		</Row>
+		<Row HighRoll="44">
+			<GameObject Name="Ring of Multiple Wishes *" />
+		</Row>
+		<Row HighRoll="60">
+			<GameObject Name="Ring of Protection" />
+		</Row>
+		<Row HighRoll="61">
+			<GameObject Name="Ring of Regeneration" />
+		</Row>
+		<Row HighRoll="63">
+			<GameObject Name="Ring of Shooting Stars" />
+		</Row>
+		<Row HighRoll="65">
+			<GameObject Name="Ring of Spell Storing" />
+		</Row>
+		<Row HighRoll="69">
+			<GameObject Name="Ring of Spell Turning" />
+		</Row>
+		<Row HighRoll="75">
+			<GameObject Name="Ring of Swimming" />
+		</Row>
+		<Row HighRoll="77">
+			<GameObject Name="Ring of Telekinesis *" />
+		</Row>
+		<Row HighRoll="79">
+			<GameObject Name="Ring of Three Wishes *" />
+		</Row>
+		<Row HighRoll="85">
+			<GameObject Name="Ring of Warmth" />
+		</Row>
+		<Row HighRoll="90">
+			<GameObject Name="Ring of Water Walking" />
+		</Row>
+		<Row HighRoll="98">
+			<GameObject Name="Ring of Weakness" />
+		</Row>
+		<Row HighRoll="99">
+			<GameObject Name="Ring of Wizardry * (M)" />
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Ring of X-Ray Vision" />
+		</Row>
+	</Table>
+
+	<Table TableName="III.C.2. Rings">
+		<DieRoll Sides="100"/>
+		<Row HighRoll="8">
+			<GameObject Name="Ring of Animal Friendship"/>
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="Anything Ring"/>
+		</Row>
+		<Row HighRoll="20">
+			<GameObject Name="Ring of Blinking"/>
+		</Row>
+		<Row HighRoll="22">
+			<GameObject Name="Ring of Boccob"/>
+		</Row>
+		<Row HighRoll="31">
+			<GameObject Name="Ring of Chameleon Power"/>
+		</Row>
+		<Row HighRoll="40">
+			<GameObject Name="Ring of Clumsiness"/>
+		</Row>
+		<Row HighRoll="49">
+			<GameObject Name="Ring of Faerie"/>
+		</Row>
+		<Row HighRoll="85">
+			<GameObject Name="Ring of Jumping"/>
+		</Row>
+		<Row HighRoll="67">
+			<GameObject Name="Ring of Mind Shielding"/>
+		</Row>
+		<Row HighRoll="70">
+			<GameObject Name="Ring of the Ram"/>
+		</Row>
+		<Row HighRoll="79">
+			<GameObject Name="Ring of Shocking Grasp"/>
+		</Row>
+		<Row HighRoll="92">
+			<GameObject Name="Ring of Sustenance"/>
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Ring of Truth"/>
+		</Row>
+	</Table>
+
+	<Table TableName="III.D. Rods and Staves">
+		<DieRoll Sides="100"/>
+		<Row HighRoll="6">
+			<GameObject Name="Rod of Absorption (C,M)" />
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="Rod of Alertness" />
+		</Row>
+		<Row HighRoll="11">
+			<GameObject Name="Rod of Beguiling (C,M,T)" />
+		</Row>
+		<Row HighRoll="21">
+			<GameObject Name="Rod of Cancellation" />
+		</Row>
+		<Row HighRoll="26">
+			<GameObject Name="Rod of Flailing" />
+		</Row>
+		<Row HighRoll="27">
+			<GameObject Name="Rod of Lordly Might (F)" />
+		</Row>
+		<Row HighRoll="30">
+			<GameObject Name="Rod of Passage" />
+		</Row>
+		<Row HighRoll="31">
+			<GameObject Name="Rod of Resurrection (C)" />
+		</Row>
+		<Row HighRoll="32">
+			<GameObject Name="Rod of Rulership" />
+		</Row>
+		<Row HighRoll="36">
+			<GameObject Name="Rod of Security" />
+		</Row>
+		<Row HighRoll="37">
+			<GameObject Name="Rod of Smiting (C,F)" />
+		</Row>
+		<Row HighRoll="40">
+			<GameObject Name="Rod of Splendor" />
+		</Row>
+		<Row HighRoll="41">
+			<GameObject Name="Staff of Command (C,M)" />
+		</Row>
+		<Row HighRoll="48">
+			<GameObject Name="Staff of Curing (C)" />
+		</Row>
+		<Row HighRoll="55">
+			<GameObject Name="Staff-Mace" />
+		</Row>
+		<Row HighRoll="56">
+			<GameObject Name="Staff of the Magi (M)" />
+		</Row>
+		<Row HighRoll="57">
+			<GameObject Name="Staff of Power (M)" />
+		</Row>
+		<Row HighRoll="63">
+			<GameObject Name="Staff of the Serpent (C)" />
+		</Row>
+		<Row HighRoll="70">
+			<GameObject Name="Staff of Slinging (D)" />
+		</Row>
+		<Row HighRoll="76">
+			<GameObject Name="Staff-Spear" />
+		</Row>
+		<Row HighRoll="82">
+			<GameObject Name="Staff of Striking (C,M)" />
+		</Row>
+		<Row HighRoll="85">
+			<GameObject Name="Staff of Swarming Insects (C,M)" />
+		</Row>
+		<Row HighRoll="86">
+			<GameObject Name="Staff of Thunder and Lightning" />
+		</Row>
+		<Row HighRoll="90">
+			<GameObject Name="Staff of Withering (C)" />
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Staff of the Woodlands (D)" />
+		</Row>
+	</Table>
+
+	<Table TableName="III.D.2. Wands">
+		<DieRoll Sides="100"/>
+		<Row HighRoll="1">
+			<GameObject Name="Anything Wand"/>
+		</Row>
+		<Row HighRoll="5">
+			<GameObject Name="Buckler Wand (F,M,T)"/>
+		</Row>
+		<Row HighRoll="7">
+			<GameObject Name="Wand of Conjuration (M)"/>
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="Wand of Defoliation"/>
+		</Row>
+		<Row HighRoll="12">
+			<GameObject Name="Wand of Earth and Stone"/>
+		</Row>
+		<Row HighRoll="16">
+			<GameObject Name="Wand of Enemy Detection"/>
+		</Row>
+		<Row HighRoll="20">
+			<GameObject Name="Wand of Fear (C,M)"/>
+		</Row>
+		<Row HighRoll="22">
+			<GameObject Name="Wand of Fire (M)"/>
+		</Row>
+		<Row HighRoll="26">
+			<GameObject Name="Wand of Fireballs"/>
+		</Row>
+		<Row HighRoll="30">
+			<GameObject Name="Wand of Flame Extinguishing"/>
+		</Row>
+		<Row HighRoll="31">
+			<GameObject Name="Wand of Force (F,M)"/>
+		</Row>
+		<Row HighRoll="32">
+			<GameObject Name="Wand of Frost (M)"/>
+		</Row>
+		<Row HighRoll="35">
+			<GameObject Name="Wand of Ice Storms"/>
+		</Row>
+		<Row HighRoll="39">
+			<GameObject Name="Wand of Illumination"/>
+		</Row>
+		<Row HighRoll="43">
+			<GameObject Name="Wand of Illusion (M)"/>
+		</Row>
+		<Row HighRoll="45">
+			<GameObject Name="Wand of Lightning (M)"/>
+		</Row>
+		<Row HighRoll="49">
+			<GameObject Name="Wand of Lightning Bolts"/>
+		</Row>
+		<Row HighRoll="53">
+			<GameObject Name="Wand of Magic Detection"/>
+		</Row>
+		<Row HighRoll="61">
+			<GameObject Name="Wand of Magic Missiles"/>
+		</Row>
+		<Row HighRoll="66">
+			<GameObject Name="Wand of Metal and Mineral Detection"/>
+		</Row>
+		<Row HighRoll="68">
+			<GameObject Name="Wand of Metal Command"/>
+		</Row>
+		<Row HighRoll="74">
+			<GameObject Name="Wand of Negation"/>
+		</Row>
+		<Row HighRoll="78">
+			<GameObject Name="Wand of Parlalyzation (M)"/>
+		</Row>
+		<Row HighRoll="82">
+			<GameObject Name="Wand of Polymorphing (M)"/>
+		</Row>
+		<Row HighRoll="86">
+			<GameObject Name="Wand of Secret Door and Trap Location"/>
+		</Row>
+		<Row HighRoll="90">
+			<GameObject Name="Wand of Size Alteration"/>
+		</Row>
+		<Row HighRoll="92">
+			<GameObject Name="Wand of Steam and Vapor (M)"/>
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Wand of Wonder"/>
+		</Row>
+	</Table>
+	
+	<Table TableName="III.F. Armor and Shield">
+		<DieRoll Sides="100" />
+		<Row HighRoll="5">
+			<GameObject Name="Chain Mail +1" />
+		</Row>
+		<Row HighRoll="9">
+			<GameObject Name="Chain Mail +2" />
+		</Row>
+		<Row HighRoll="11">
+			<GameObject Name="Chain Mail +3" />
+		</Row>
+		<Row HighRoll="19">
+			<GameObject Name="Leather Armor +1" />
+		</Row>
+		<Row HighRoll="26">
+			<GameObject Name="Plate Mail +1" />
+		</Row>
+		<Row HighRoll="32">
+			<GameObject Name="Plate Mail +2" />
+		</Row>
+		<Row HighRoll="35">
+			<GameObject Name="Plate Mail +3" />
+		</Row>
+		<Row HighRoll="37">
+			<GameObject Name="Plate Mail +4" />
+		</Row>
+		<Row HighRoll="38">
+			<GameObject Name="Plate Mail +5" />
+		</Row>
+		<Row HighRoll="39">
+			<GameObject Name="Plate Mail of Etherealness" />
+		</Row>
+		<Row HighRoll="44">
+			<GameObject Name="Plate Mail of Invulnerability" />
+		</Row>
+		<Row HighRoll="50">
+			<GameObject Name="Ring Mail +1" />
+		</Row>
+		<Row HighRoll="55">
+			<GameObject Name="Scale Mail +1" />
+		</Row>
+		<Row HighRoll="59">
+			<GameObject Name="Scale Mail +2" />
+		</Row>
+		<Row HighRoll="63">
+			<GameObject Name="Splint Mail +1" />
+		</Row>
+		<Row HighRoll="66">
+			<GameObject Name="Splint Mail +2" />
+		</Row>
+		<Row HighRoll="68">
+			<GameObject Name="Splint Mail +3" />
+		</Row>
+		<Row HighRoll="69">
+			<GameObject Name="Splint Mail +4" />
+		</Row>
+		<Row HighRoll="75">
+			<GameObject Name="Studded Leather +1" />
+		</Row>
+		<Row HighRoll="84">
+			<GameObject Name="Shield +1" />
+		</Row>
+		<Row HighRoll="89">
+			<GameObject Name="Shield +2" />
+		</Row>
+		<Row HighRoll="93">
+			<GameObject Name="Shield +3" />
+		</Row>
+		<Row HighRoll="95">
+			<GameObject Name="Shield +4" />
+		</Row>
+		<Row HighRoll="96">
+			<GameObject Name="Shield +5" />
+		</Row>
+		<Row HighRoll="97">
+			<GameObject Name="Large Shield +1, +4 vs missiles" />
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Shield -1, missile attractor" />
+		</Row>
+	</Table>
+
+	<Table TableName="III.F.2. Armor and Shield">
+		<DieRoll Sides="100" />
+		<Row HighRoll="1">
+			<GameObject Name="Anything Armor" />
+		</Row>
+		<Row HighRoll="7">
+			<GameObject Name="Bronze Plate Mail +1" />
+		</Row>
+		<Row HighRoll="11">
+			<GameObject Name="Bronze Plate Mail +2" />
+		</Row>
+		<Row HighRoll="17">
+			<GameObject Name="Buckler +1" />
+		</Row>
+		<Row HighRoll="21">
+			<GameObject Name="Buckler +2" />
+		</Row>
+		<Row HighRoll="23">
+			<GameObject Name="Buckler +3" />
+		</Row>
+		<Row HighRoll="25">
+			<GameObject Name="Chain Mail +4" />
+		</Row>
+		<Row HighRoll="31">
+			<GameObject Name="Elfin Chain Mail +1" />
+		</Row>
+		<Row HighRoll="35">
+			<GameObject Name="Elfin Chain Mail +2" />
+		</Row>
+		<Row HighRoll="38">
+			<GameObject Name="Elfin Chain Mail +3" />
+		</Row>
+		<Row HighRoll="40">
+			<GameObject Name="Elfin Chain Mail +4" />
+		</Row>
+		<Row HighRoll="41">
+			<GameObject Name="Elfin Chain Mail +5" />
+		</Row>
+		<Row HighRoll="50">
+			<GameObject Name="Leather Armor +2" />
+		</Row>
+		<Row HighRoll="55">
+			<GameObject Name="Leather Armor +3" />
+		</Row>
+		<Row HighRoll="62">
+			<GameObject Name="Field Plate +1" />
+		</Row>
+		<Row HighRoll="68">
+			<GameObject Name="Field Plate +2" />
+		</Row>
+		<Row HighRoll="71">
+			<GameObject Name="Field Plate +3" />
+		</Row>
+		<Row HighRoll="73">
+			<GameObject Name="Field Plate +4" />
+		</Row>
+		<Row HighRoll="74">
+			<GameObject Name="Field Plate +5" />
+		</Row>
+		<Row HighRoll="80">
+			<GameObject Name="Full Plate +1" />
+		</Row>
+		<Row HighRoll="84">
+			<GameObject Name="Full Plate +2" />
+		</Row>
+		<Row HighRoll="87">
+			<GameObject Name="Full Plate +3" />
+		</Row>
+		<Row HighRoll="89">
+			<GameObject Name="Full Plate +4" />
+		</Row>
+		<Row HighRoll="93">
+			<GameObject Name="Ring Mail +2" />
+		</Row>
+		<Row HighRoll="95">
+			<GameObject Name="Ring Mail +3" />
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Studded Leather +2" />
+		</Row>
+	</Table>
+	
+	<Table TableName="III.G. Swords">
+		<DieRoll Sides="100" />
+		<Row HighRoll="25">
+			<GameObject Name="Sword +1" />
+		</Row>
+		<Row HighRoll="30">
+			<GameObject Name="Sword +1, +2 vs magic-using and enchanted creatures" />
+		</Row>
+		<Row HighRoll="35">
+			<GameObject Name="Sword +1, +3 vs lycanthropes and shape-changers" />
+		</Row>
+		<Row HighRoll="40">
+			<GameObject Name="Sword +1, +3 vs regenerating creatures" />
+		</Row>
+		<Row HighRoll="45">
+			<GameObject Name="Sword +1, +4 vs reptiles" />
+		</Row>
+		<Row HighRoll="49">
+			<GameObject Name="Sword +1, Flame Tongue (see UA 89)" />
+		</Row>
+		<Row HighRoll="50">
+			<GameObject Name="Sword +1, Luck Blade" />
+		</Row>
+		<Row HighRoll="58">
+			<GameObject Name="Sword +2" />
+		</Row>
+		<Row HighRoll="62">
+			<GameObject Name="Sword +2, Giant Slayer" />
+		</Row>
+		<Row HighRoll="66">
+			<GameObject Name="Sword +2, Dragon Slayer" />
+		</Row>
+		<Row HighRoll="70">
+			<GameObject Name="Sword +2, Quickness (shortsword)" />
+		</Row>
+		<Row HighRoll="76">
+			<GameObject Name="Sword +3" />
+		</Row>
+		<Row HighRoll="79">
+			<GameObject Name="Sword +3. Frost Brand; +6 vs fire using/dwelling creatures" />
+		</Row>
+		<Row HighRoll="81">
+			<GameObject Name="Sword of the Planes" />
+		</Row>
+		<Row HighRoll="84">
+			<GameObject Name="Sword +4" />
+		</Row>
+		<Row HighRoll="86">
+			<GameObject Name="Sword +4, Defender" />
+		</Row>
+		<Row HighRoll="88">
+			<GameObject Name="Sword +5" />
+		</Row>
+		<Row HighRoll="94">
+			<GameObject Name="Sword +1, Cursed" />
+		</Row>
+		<Row HighRoll="98">
+			<GameObject Name="Sword -2, Cursed" />
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Sword, Cursed Berserking" />
+		</Row>
+	</Table>
+	
+	<Table TableName="III.G.2. Swords">
+		<DieRoll Sides="100" />
+		<Row HighRoll="15">
+			<GameObject Name="Sun Blade" />
+		</Row>
+		<Row HighRoll="16">
+			<GameObject Name="Anything Sword" />
+		</Row>
+		<Row HighRoll="32">
+			<GameObject Name="Broadsword, Final Word type" />
+		</Row>
+		<Row HighRoll="45">
+			<GameObject Name="Sword of Dancing" />
+		</Row>
+		<Row HighRoll="61">
+			<GameObject Name="Sword +5, Defender" />
+		</Row>
+		<Row HighRoll="69">
+			<GameObject Name="Sword +6, Defender " />
+		</Row>
+		<Row HighRoll="84">
+			<GameObject Name="Sword +5, Holy Avenger " />
+		</Row>
+		<Row HighRoll="91">
+			<GameObject Name="Sword +6, Holy Avenger " />
+		</Row>
+		<Row HighRoll="93">
+			<GameObject Name="Sword of Life Stealing " />
+		</Row>
+		<Row HighRoll="95">
+			<GameObject Name="Sword +2, Nine Lives Stealer " />
+		</Row>
+		<Row HighRoll="97">
+			<GameObject Name="Sword of Sharpness " />
+		</Row>
+		<Row HighRoll="98">
+			<GameObject Name="Vorpal Sword" />
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Sword of Wounding " />
+		</Row>
+	</Table>
+	
+	<Table TableName="III.H. Miscellaneous Weapons">
+		<DieRoll Sides="100" />
+		<Row HighRoll="8">
+			<ItemRoll>
+				<GameObject Name="Arrow +1" />
+				<DieRoll Dice="2" Sides="12" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="12">
+			<ItemRoll>
+				<GameObject Name="Arrow +2" />
+				<DieRoll Dice="2" Sides="8" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="14">
+			<ItemRoll>
+				<GameObject Name="Arrow +3" />
+				<DieRoll Dice="2" Sides="6" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="15">
+			<GameObject Name="Arrow of Slaying" />
+		</Row>
+		<Row HighRoll="20">
+			<GameObject Name="Axe +1" />
+		</Row>
+		<Row HighRoll="22">
+			<GameObject Name="Axe +2" />
+		</Row>
+		<Row HighRoll="23">
+			<GameObject Name="Throwing Axe +2" />
+		</Row>
+		<Row HighRoll="24">
+			<GameObject Name="Axe +3" />
+		</Row>
+		<Row HighRoll="27">
+			<GameObject Name="Battle Axe +1" />
+		</Row>
+		<Row HighRoll="32">
+			<ItemRoll>
+				<GameObject Name="Bolt +2" />
+				<DieRoll Dice="2" Sides="10" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="35">
+			<GameObject Name="Bow +1" />
+		</Row>
+		<Row HighRoll="36">
+			<GameObject Name="Crossbow of Accuracy +3" />
+		</Row>
+		<Row HighRoll="37">
+			<GameObject Name="Crossbow of Distance" />
+		</Row>
+		<Row HighRoll="38">
+			<GameObject Name="Crossbow of Speed" />
+		</Row>
+		<Row HighRoll="46">
+			<GameObject Name="Dagger +1, +2 vs small" />
+		</Row>
+		<Row HighRoll="50">
+			<GameObject Name="Dagger +2, +3 vs small" />
+		</Row>
+		<Row HighRoll="51">
+			<GameObject Name="Dagger of Venom" />
+		</Row>
+		<Row HighRoll="56">
+			<GameObject Name="Flail +1" />
+		</Row>
+		<Row HighRoll="60">
+			<GameObject Name="Hammer +1" />
+		</Row>
+		<Row HighRoll="62">
+			<GameObject Name="Hammer +2" />
+		</Row>
+		<Row HighRoll="63">
+			<GameObject Name="Hammer +3, Dwarven Thrower" />
+		</Row>
+		<Row HighRoll="64">
+			<GameObject Name="Hammer of Thunderbolts" />
+		</Row>
+		<Row HighRoll="67">
+			<GameObject Name="Javelin +2" />
+		</Row>
+		<Row HighRoll="72">
+			<GameObject Name="Mace +1" />
+		</Row>
+		<Row HighRoll="75">
+			<GameObject Name="Mace +2" />
+		</Row>
+		<Row HighRoll="76">
+			<GameObject Name="Mace of Disruption" />
+		</Row>
+		<Row HighRoll="77">
+			<GameObject Name="Mace +4" />
+		</Row>
+		<Row HighRoll="80">
+			<GameObject Name="Military Pick +1" />
+		</Row>
+		<Row HighRoll="83">
+			<GameObject Name="Morning Star +1" />
+		</Row>
+		<Row HighRoll="88">
+			<GameObject Name="Scimitar +2" />
+		</Row>
+		<Row HighRoll="89">
+			<GameObject Name="Sling of Seeking +2" />
+		</Row>
+		<Row HighRoll="94">
+			<GameObject Name="Spear +1" />
+		</Row>
+		<Row HighRoll="96">
+			<GameObject Name="Spear +2" />
+		</Row>
+		<Row HighRoll="97">
+			<GameObject Name="Spear +3" />
+		</Row>
+		<Row HighRoll="99">
+			<GameObject Name="Spear, Cursed Backbiter" />
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Trident (Military Fork) +3" />
+		</Row>
+	</Table>
+	
+	<Table TableName="III.H.2. Miscellaneous Weapons">
+		<DieRoll Sides="100" />
+		<Row HighRoll="2">
+			<ItemRoll>
+				<GameObject Name="Arrow +4" />
+				<DieRoll Dice="2" Sides="4" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="3">
+			<GameObject Name="Axe +4" />
+		</Row>
+		<Row HighRoll="4">
+			<GameObject Name="Axe of Hurling" />
+		</Row>
+		<Row HighRoll="10">
+			<GameObject Name="Battle Axe +2" />
+		</Row>
+		<Row HighRoll="13">
+			<GameObject Name="Battle Axe +3" />
+		</Row>
+		<Row HighRoll="20">
+			<ItemRoll>
+				<GameObject Name="Bolt +1" />
+				<DieRoll Dice="6" Sides="6" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="22">
+			<ItemRoll>
+				<GameObject Name="Bolt +3" />
+				<DieRoll Dice="3" Sides="4" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="27">
+			<ItemRoll>
+				<GameObject Name="Sling Bullet +1" />
+				<DieRoll Dice="5" Sides="4" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="31">
+			<ItemRoll>
+				<GameObject Name="Sling Bullet +2" />
+				<DieRoll Dice="3" Sides="4" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="34">
+			<ItemRoll>
+				<GameObject Name="Sling Bullet +3" />
+				<DieRoll Dice="2" Sides="4" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="35">
+			<ItemRoll>
+				<GameObject Name="Sling Bullet of Impact" />
+				<DieRoll Dice="1" Sides="4" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="40">
+			<GameObject Name="Dagger +1" />
+		</Row>
+		<Row HighRoll="43">
+			<GameObject Name="Dagger +2" />
+		</Row>
+		<Row HighRoll="44">
+			<GameObject Name="Dagger +2, Longtooth" />
+		</Row>
+		<Row HighRoll="46">
+			<GameObject Name="Dagger +3" />
+		</Row>
+		<Row HighRoll="47">
+			<GameObject Name="Dagger of Throwing" />
+		</Row>
+		<Row HighRoll="51">
+			<ItemRoll>
+				<GameObject Name="Dart +1" />
+				<DieRoll Dice="3" Sides="4" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="54">
+			<ItemRoll>
+				<GameObject Name="Dart +2" />
+				<DieRoll Dice="2" Sides="4" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="56">
+			<ItemRoll>
+				<GameObject Name="Dart +3" />
+				<DieRoll Dice="1" Sides="4" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="57">
+			<ItemRoll>
+				<GameObject Name="Dart of Homing" />
+				<DieRoll Dice="1" Sides="2" />
+			</ItemRoll>
+		</Row>
+		<Row HighRoll="61">
+			<GameObject Name="Flail +2" />
+		</Row>
+		<Row HighRoll="62">
+			<GameObject Name="Hammer +4" />
+		</Row>
+		<Row HighRoll="63">
+			<GameObject Name="Hornblade" />
+		</Row>
+		<Row HighRoll="68">
+			<GameObject Name="Javelin +1" />
+		</Row>
+		<Row HighRoll="70">
+			<GameObject Name="Javelin +3" />
+		</Row>
+		<Row HighRoll="75">
+			<GameObject Name="Knife +1" />
+		</Row>
+		<Row HighRoll="78">
+			<GameObject Name="Knife +2" />
+		</Row>
+		<Row HighRoll="79">
+			<GameObject Name="Buckle Knife" />
+		</Row>
+		<Row HighRoll="81">
+			<GameObject Name="Lance +1" />
+		</Row>
+		<Row HighRoll="83">
+			<GameObject Name="Mace +3" />
+		</Row>
+		<Row HighRoll="86">
+			<GameObject Name="Morning Star +2" />
+		</Row>
+		<Row HighRoll="87">
+			<GameObject Name="Pole Arm +1" />
+		</Row>
+		<Row HighRoll="89">
+			<GameObject Name="Magic Quarterstaff" />
+		</Row>
+		<Row HighRoll="92">
+			<GameObject Name="Scimitar +1" />
+		</Row>
+		<Row HighRoll="94">
+			<GameObject Name="Scimitar +3" />
+		</Row>
+		<Row HighRoll="95">
+			<GameObject Name="Scimitar of Speed" />
+		</Row>
+		<Row HighRoll="96">
+			<GameObject Name="Scimitar +4" />
+		</Row>
+		<Row HighRoll="99">
+			<GameObject Name="Spear +4" />
+		</Row>
+		<Row HighRoll="100">
+			<GameObject Name="Spear +5" />
+		</Row>
+	</Table>
+
+</Tables>
+

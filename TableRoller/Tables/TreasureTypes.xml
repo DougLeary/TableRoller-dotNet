@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TreasureTypes>
+	<ItemList Name="A">
+		<ItemRoll Multiplier="1000" Percent="25">
+			<GameObject Name="cp" Plural="cp" />
+			<DieRoll sides="6"/>
+		</ItemRoll>
+		<ItemRoll Multiplier="1000" Percent="30">
+			<GameObject Name="sp" Plural="sp" />
+			<DieRoll sides="6"/>
+		</ItemRoll>
+		<ItemRoll Multiplier="1000" Percent="35">
+			<GameObject Name="ep" Plural="ep" />
+			<DieRoll sides="6"/>
+		</ItemRoll>
+		<ItemRoll Multiplier="1000" Percent="40">
+			<GameObject Name="gp" Plural="gp" />
+			<DieRoll sides="10"/>
+		</ItemRoll>
+		<ItemRoll Multiplier="100" Percent="25">
+			<GameObject Name="pp" Plural="pp" />
+			<DieRoll sides="4"/>
+		</ItemRoll>
+		<ItemRoll Percent="60">
+			<TableRoll TableName="Gems and Jewels" />
+			<DieRoll dice="4" sides="10"/>
+		</ItemRoll>
+		<ItemRoll Percent="50">
+			<TableRoll TableName="Jewelry" />
+			<DieRoll dice="3" sides="10"/>
+		</ItemRoll>
+		<ItemRoll Percent="30">
+			<TableRoll TableName="III. Magic Items" Rolls="3" />
+		</ItemRoll>
+	</ItemList>
+	<ItemList Name="B">
+		<ItemRoll Multiplier="1000" Percent="50">
+			<GameObject Name="cp" Plural="cp" />
+			<DieRoll sides="6"/>
+		</ItemRoll>
+		<ItemRoll Multiplier="1000" Percent="25">
+			<GameObject Name="sp" Plural="sp" />
+			<DieRoll sides="6"/>
+		</ItemRoll>
+		<ItemRoll Multiplier="1000" Percent="25">
+			<GameObject Name="ep" Plural="ep" />
+			<DieRoll sides="6"/>
+		</ItemRoll>
+		<ItemRoll Multiplier="1000" Percent="25">
+			<GameObject Name="gp" Plural="gp" />
+			<DieRoll sides="10"/>
+		</ItemRoll>
+		<ItemRoll Percent="60">
+			<TableRoll TableName="Gems and Jewels" />
+			<DieRoll dice="1" sides="8"/>
+		</ItemRoll>
+	</ItemList>
+</TreasureTypes>

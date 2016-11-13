@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="RealmSmith.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<link type="text/css" rel="Stylesheet" href="Style.css" />
+	<script type="text/javascript" src="Scripts/jquery.js"></script>
+	<script type="text/javascript" src="Scripts/json2.js"></script>
+	<asp:ContentPlaceHolder ID="HeadPlaceHolder" runat="server">
+	</asp:ContentPlaceHolder>
+	<script type="text/javascript" src="Scripts/pageTracking.js"></script>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<div style="width: 100%;">
+			<asp:Panel ID="PageHeader" runat="server" CssClass="PageHeader">
+				<a href="/Default.aspx" style="text-decoration: none; border: none;">
+				</a>
+			</asp:Panel>
+
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<asp:Panel ID="MenuPanel" runat="server" CssClass="MenuPanel">
+							<div class="menuHeading">
+								RealmSmith</div>
+							<div class="menuSection">
+								<a href="Default.aspx">Home</a>
+								<br />
+								<a href="/wiki/">Wiki</a>
+							</div>
+							<div class="menuHeading">
+								Utilities</div>
+							<div class="menuSection">
+								<a href="RollDice.aspx">Dice Roller</a>
+								<br />
+								<a href="RollCharacter.aspx">Character Roller</a>
+								<br />
+								<a href="TableRollDemo.aspx">Table Roll Demo</a>
+							</div>
+							<asp:ContentPlaceHolder ID="MenuPlaceHolder" runat="server">
+							</asp:ContentPlaceHolder>
+						</asp:Panel>
+						<asp:Panel ID="GoogleAdPanel" runat="server" CssClass="GoogleAdPanel">
+			<%--				<script type="text/javascript"><!--
+							google_ad_client = "ca-pub-0343365008920694";
+							/* realmsmithMenu */
+							google_ad_slot = "8370132767";
+							google_ad_width = 160;
+							google_ad_height = 600;
+							//-->
+							</script>
+							<script type="text/javascript"
+							src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+							</script>
+			--%>			</asp:Panel>
+					</td>
+					<td>
+						<asp:Panel ID="BodyPanel" runat="server" CssClass="BodyPanel">
+							<asp:ContentPlaceHolder ID="BodyPlaceHolder" runat="server">
+							</asp:ContentPlaceHolder>
+						</asp:Panel>
+						
+					</td>
+				</tr>
+			</table>
+
+		</div>
+	</form>
+</body>
+</html>

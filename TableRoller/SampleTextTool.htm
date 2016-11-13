@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+	<title>Font Sample Text Tool</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var stAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		var savedCount = 0;
+		
+		function updateUsed(event) {
+			var input = $("#textInput").val().toLowerCase();
+			// set the class of each alphabet letter to used or notused depending if that letter exists in the input
+			for (var i = 0; i < 26; i++) {
+				var $span = $("#alphabet span").eq(i);
+				if (input.indexOf(stAlphabet.charAt(i)) >=0) {
+					$span.removeClass("notused");
+					$span.addClass("used");
+				} else {
+					$span.removeClass("used");
+					$span.addClass("notused");
+				}
+			}
+			$("#textLength").text(input.length);
+			$("#letterCount").text(input.replace(/[^a-z]/g,"").length);
+		}
+			
+		function saveText() {
+			// insert the input text into the save area unless it already exists
+			var text = $("#textInput").val().trim();
+			var isFound = false;
+			$("#storage ul li").each(function(index) {
+				// look for a case-insensitive match
+				if ($(this).text().toLowerCase() == text.toLowerCase()) {
+					isFound = true; 
+					if ($(this).text() != text) {
+						// case sensitive version is different so replace with new
+						$(this).text(text);
+					}
+				}
+			});
+			if (!isFound) {
+				$("#storage ul").append("<li>" + text + "</li>");
+			}
+			$("#storage").show();
+		}
+		
+		function unsaveText(event) {
+			
+		}
+
+		$(document).ready(function(event) {
+			for (var i = 0; i < 26; i++) {
+				$("#alphabet").append("<span>" + stAlphabet.charAt(i) + "</span>");
+			}
+			$("#textInput").keyup(updateUsed);
+			
+			$("#storage ul").on("click", "li", function(event) {
+				saveText();
+				$("#textInput").val($(this).text());
+				updateUsed(event);
+			});
+			
+			$("#textInput").focus();
+		});
+	</script>
+	<style type="text/css">
+		body		{ font-family: Arial; background-color: #ffffff; }
+		input		{ font-family: Courier New; font-size: 18pt; }
+		.used		{ background-color: #c8c8c8; }
+		.notused	{ background-color: #ffffcf; }
+		#alphabet	{ font-family: Courier New; font-size: 24pt; margin-right: 30px; }
+		#textInput	{ width: 750px; margin-right: 10px; }
+		#textLength, #letterCount
+					{ font-family: Courier New; font-size: 24pt; padding-right: 15px; }
+		#container	{ position: relative;
+		          	  width: 820px; margin-left:auto; margin-right:auto; margin-top: 30px; 
+		          	  padding: 20px; padding-top: 0px;
+		          	  background-color: #ffffcf; 
+		          	  border: 1px solid black; 
+		          	  -moz-border-radius: 15px; 
+		          	  border-radius: 15px;
+		          	  -moz-box-shadow: 10px 10px 5px #888;
+					  -webkit-box-shadow: 10px 10px 5px #888;
+					  box-shadow: 10px 10px 5px #888;}
+		#version	{ font-size: 8pt; position: absolute; top: 15px; left: 750px; }
+
+		#storage	{ width: 700px; margin-top: 20px; border-top: 2px solid #c0c0c0; padding: 20px; display: none; }
+		#storage ul	{ list-style: none; margin-left: 0; }
+		#storage ul li { font-family: Courier New; font-size: 14pt; cursor: pointer; }
+		#storage ul li:hover { background-color: #efefbf; }
+		#storageHeading { font-size: 14pt; font-weight: bold; padding-right: 20px; }
+	</style>
+</head>
+<body>
+	<div id="container">
+	<h1>Font Sample Text Tool</h1>
+	For creating sample text using all the letters of the alphabet.
+	<br /><br />Type in the box; the alphabet shows which letters you have used.
+	<div style="margin-top:10px; margin-bottom:6px;">
+		<input type="text" id="textInput" />
+		<button onclick="saveText()">Save</button>
+	</div>
+	<span id="alphabet"></span>
+	Length: <span id="textLength">0</span>
+	Letters: <span id="letterCount">0</span>
+
+	<div id="storage">
+		<span id="storageHeading">Saved Items</span>
+		<span> (click to select)</span>
+		<ul id="savedItems"></ul>
+	</div>
+
+	<div id="version">Version 0.2</div>
+	</div>
+
+</body>
+</html>

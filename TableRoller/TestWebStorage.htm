@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Test Web Storage</title>
+    <script type="text/javascript" src="Scripts/jquery.js"></script>
+    <script type="text/javascript">
+		function Table(tableName) {
+			this.name = tableName;
+			this.info = "Data for table: " + tableName;
+			}
+			
+		function initLocalStore() {
+			// initialize local storage 
+			if (!localStorage.gameBits) localStorage.gameBits = JSON.stringify([]);
+		}
+		
+		function saveLocalStore(table) {
+			var data = JSON.parse(localStorage["gameBits"]);
+			data.push(table);
+			localStorage["gameBits"] = JSON.stringify(data);
+		}
+		
+		function readLocalStore(tableName) {
+			var gameBits = JSON.parse(localStorage["gameBits"]);
+			var table = null;
+			gameBits.forEach(function(item) {
+				if (item.name == tableName) {
+					table = clone(item);
+					}
+				});
+			return table;
+		}
+    </script>
+</head>
+<body>
+	Results: <span id="results"></span>
+	<br />
+	<script type="text/javascript">
+		$(document).ready(function(event) {
+			initLocalStore();
+			var myTable = new Table("Table 1");
+			saveLocalStore(myTable);
+			var retrieved = readLocalStore("Table 1");
+			$("results").html(retrieved.info);
+			});
+	</script>
+</body>
+</html>
