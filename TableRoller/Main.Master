@@ -23,7 +23,7 @@
 					<td>
 						<asp:Panel ID="MenuPanel" runat="server" CssClass="MenuPanel">
 							<div class="menuHeading">
-								RealmSmith</div>
+								TableRoller</div>
 							<div class="menuSection">
 								<a href="Default.aspx">Home</a>
 								<br />

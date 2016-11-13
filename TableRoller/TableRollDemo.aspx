@@ -84,11 +84,12 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyPlaceHolder" runat="server">
 	<div id="TableRollDemo">
 		<h1>Table Roll Demo</h1>
-		<p>This is a test page for the RollableTable class, which defines a table of result items and a DieRoll,
-		with optional rules to ignore rolls above or below specified values. 
-		A table item can be an end result, an instruction to roll on a different table, or a combination of these as in the fourth item in Monster Table 1. 
-		<br />The Gems and Jewels Table mentioned in the Treasure table (and some other tables for different value levels of gems) exist but are not displayed here. 
-		<br />For now the "database" consists of an XML file. <a id="SampleXmlLink" href="javascript:void();">[see example]</a>
+		<p>This is a test page for the RollableTable class - a data structure defined by a list of results and a DieRoll,
+		with optional rules to ignore certain rolls. 
+		A table item can be an end result (like "15 Goblins"), a die roll to generate a result,
+        an instruction to roll on a table (optionally ignoring specific rolls), or any number of these separated by semicolons. 
+		<br />The Gems and Jewels Table mentioned in the Treasure table below is not shown here but works the same way. 
+		<br />For now the "database" is an XML file. <a id="SampleXmlLink" href="javascript:void();">[see example]</a>
 		</p>
 		<div style="margin-bottom: 30px;">
 			<input type="button" value="Roll Once" onclick='RollOnTable("Monsters Table 1",1);' />&nbsp;

@@ -94,7 +94,7 @@
     <Content Include="iframeTest\frTwo.htm" />
     <Content Include="iframeTest\main.htm" />
     <Content Include="Images\cornerlogo.jpg" />
-    <Content Include="Images\realmsmithbanner1.jpg" />
+    <Content Include="Images\banner1.jpg" />
     <Content Include="Images\swordandaxe.jpg" />
     <Content Include="JQueryTest.htm" />
     <Content Include="JQueryTest2.htm" />
