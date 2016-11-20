@@ -78,8 +78,6 @@
     <Content Include="ArduinSpecialAbilities.aspx" />
     <Content Include="bin\GameBits.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
-    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
-    <Content Include="bin\RealmSmith.dll" />
     <Content Include="Dashboard.aspx" />
     <Content Include="Dashboard0.aspx" />
     <Content Include="Default.aspx" />

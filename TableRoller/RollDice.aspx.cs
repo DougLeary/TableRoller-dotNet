@@ -41,13 +41,13 @@ namespace TableRoller
 				sb.Append(dr.Maximum.ToString());
 				sb.Append(", ");
 				sb.Append(dr.Average.ToString());
-				sb.Append("<br />Roll results: ");
+				sb.Append("<p>Roll results: ");
 				sb.Append(results.ToString());
-				sb.Append("<br />Sorted: ");
+				sb.Append("</p><p>Lowest to Highest: ");
 				sb.Append(results.Sorted().ToString());
-				sb.Append("<br />Reversed: ");
+				sb.Append("</p><p>Highest to Lowest: ");
 				sb.Append(results.Sorted(DieRollResults.SortOrder.Descending).ToString());
-				sb.Append("<br />Lowest, Highest, Average rolled: ");
+				sb.Append("</p><p>Lowest, Highest, Average rolled: ");
 				sb.Append(results.Lowest.ToString());
 				sb.Append(", ");
 				sb.Append(results.Highest.ToString());
@@ -57,10 +57,11 @@ namespace TableRoller
 				if (rollCount > 3)
 				{
 					results.KeepBest(3);
-					sb.Append("<br />Top 3 rolls: ");
+					sb.Append("</p><p>Top 3 rolls: ");
 					sb.Append(results.ToString());
 					sb.Append(", total ");
 					sb.Append(results.Total.ToString());
+                    sb.Append("</p>");
 				}
 				LabelResult.Text = sb.ToString();
 			}
