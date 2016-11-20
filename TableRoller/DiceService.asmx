@@ -1,1 +1,1 @@
-﻿<%@ WebService Language="C#" CodeBehind="DiceService.asmx.cs" Class="RealmSmith.Services.DiceService" %>
+﻿<%@ WebService Language="C#" CodeBehind="DiceService.asmx.cs" Class="TableRoller.Services.DiceService" %>

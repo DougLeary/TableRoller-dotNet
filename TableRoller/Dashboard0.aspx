@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Dashboard0.aspx.cs" Inherits="RealmSmith.Dashboard0"
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Dashboard0.aspx.cs" Inherits="TableRoller.Dashboard0"
 	MasterPageFile="~/Main.Master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadPlaceHolder" runat="server">

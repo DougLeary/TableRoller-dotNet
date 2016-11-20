@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TableRollDemo.aspx.cs" MasterPageFile="~/Main.Master" 
-	Inherits="RealmSmith.TableRollDemo" %>
+	Inherits="TableRoller.TableRollDemo" %>
 <%@ Register Src="RollableTableControl.ascx" TagName="RollableTableControl" TagPrefix="gb" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadPlaceHolder" runat="server">

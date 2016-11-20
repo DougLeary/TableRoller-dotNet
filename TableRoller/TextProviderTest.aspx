@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TextProviderTest.aspx.cs" Inherits="RealmSmith.TextProviderTest" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TextProviderTest.aspx.cs" Inherits="TableRoller.TextProviderTest" %>
 
 <!DOCTYPE html>
 

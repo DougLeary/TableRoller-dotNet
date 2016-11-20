@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="RollableTableEditor.ascx.cs" Inherits="RealmSmith.RollableTableEditor" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="RollableTableEditor.ascx.cs" Inherits="TableRoller.RollableTableEditor" %>
 
 <script type="text/javascript">
 	function parseItem(itemText) {

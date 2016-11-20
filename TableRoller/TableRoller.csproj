@@ -145,13 +145,150 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CharacterBuilder.cs" />
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard0.aspx.cs">
+      <DependentUpon>Dashboard0.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard0.aspx.designer.cs">
+      <DependentUpon>Dashboard0.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DiceService.asmx.cs">
+      <DependentUpon>DiceService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditGameObject.ascx.cs">
+      <DependentUpon>EditGameObject.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditGameObject.ascx.designer.cs">
+      <DependentUpon>EditGameObject.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="EditTable.aspx.cs">
+      <DependentUpon>EditTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTable.aspx.designer.cs">
+      <DependentUpon>EditTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExampleBindableControl.ascx.cs">
+      <DependentUpon>ExampleBindableControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExampleBindableControl.ascx.designer.cs">
+      <DependentUpon>ExampleBindableControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Exp1.aspx.cs">
+      <DependentUpon>Exp1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Exp1.aspx.designer.cs">
+      <DependentUpon>Exp1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RollableTableControl.ascx.cs">
+      <DependentUpon>RollableTableControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RollableTableControl.ascx.designer.cs">
+      <DependentUpon>RollableTableControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RollableTableEditor.ascx.cs">
+      <DependentUpon>RollableTableEditor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RollableTableEditor.ascx.designer.cs">
+      <DependentUpon>RollableTableEditor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RollableTableService.asmx.cs">
+      <DependentUpon>RollableTableService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RollCharacter.aspx.cs">
+      <DependentUpon>RollCharacter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RollCharacter.aspx.designer.cs">
+      <DependentUpon>RollCharacter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RollDice.aspx.cs">
+      <DependentUpon>RollDice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RollDice.aspx.designer.cs">
+      <DependentUpon>RollDice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowTable.aspx.cs">
+      <DependentUpon>ShowTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowTable.aspx.designer.cs">
+      <DependentUpon>ShowTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TableRollDemo.aspx.cs">
+      <DependentUpon>TableRollDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TableRollDemo.aspx.designer.cs">
+      <DependentUpon>TableRollDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TableRollDemo2.aspx.cs">
+      <DependentUpon>TableRollDemo2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TableRollDemo2.aspx.designer.cs">
+      <DependentUpon>TableRollDemo2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TextProviderTest.aspx.cs">
+      <DependentUpon>TextProviderTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TextProviderTest.aspx.designer.cs">
+      <DependentUpon>TextProviderTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TreasureService.asmx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TreasureTypes.aspx.cs">
+      <DependentUpon>TreasureTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TreasureTypes.aspx.designer.cs">
+      <DependentUpon>TreasureTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlWrapper.aspx.cs">
+      <DependentUpon>UserControlWrapper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControlWrapper.aspx.designer.cs">
+      <DependentUpon>UserControlWrapper.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\GameBits\GameBits\GameBits\GameBits.csproj">
+      <Project>{c53adb9c-c724-4b12-b8fa-e93b781a98f8}</Project>
+      <Name>GameBits</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

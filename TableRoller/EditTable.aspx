@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EditTable.aspx.cs" MasterPageFile="~/Main.Master" 
-	Inherits="RealmSmith.EditTable" %>
+	Inherits="TableRoller.EditTable" %>
 <%@ Register Src="RollableTableEditor.ascx" TagName="RollableTableEditor" TagPrefix="gb" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadPlaceHolder" runat="server">

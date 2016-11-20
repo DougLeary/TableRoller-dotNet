@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ExampleBindableControl.ascx.cs" Inherits="RealmSmith.ExampleBindableControl" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ExampleBindableControl.ascx.cs" Inherits="TableRoller.ExampleBindableControl" %>
 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
 <asp:DataList ID="DataList1" runat="server" RepeatColumns="1" 
 	ShowFooter="False" ShowHeader="False">

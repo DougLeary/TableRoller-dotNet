@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RollDice.aspx.cs" MasterPageFile="~/Main.Master" Inherits="RealmSmith.RollDice" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RollDice.aspx.cs" MasterPageFile="~/Main.Master" Inherits="TableRoller.RollDice" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadPlaceHolder" runat="server">
     <title>Dice Roller</title>
 </asp:Content>

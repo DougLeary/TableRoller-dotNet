@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ShowTable.aspx.cs" Inherits="RealmSmith.ShowTable" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ShowTable.aspx.cs" Inherits="TableRoller.ShowTable" %>
 <%@ Register Src="RollableTableControl.ascx" TagName="RollableTableControl" TagPrefix="gb" %>
 
 <html xmlns="http://www.w3.org/1999/xhtml" >

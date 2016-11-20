@@ -1,5 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="EditGameObject.ascx.cs"
-	Inherits="RealmSmith.EditGameObject" %>
+	Inherits="TableRoller.EditGameObject" %>
 <table>
 	<tr>
 		<th>
