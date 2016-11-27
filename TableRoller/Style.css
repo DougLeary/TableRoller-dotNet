@@ -86,6 +86,8 @@ td
 {
 	color: #efefef;
 	text-decoration: none;
+    display: block;
+    padding: 3px 0 3px 5px;
 }
 .menuSection a:hover
 {
@@ -147,3 +149,10 @@ span.first
 	text-align: left;
 }
 
+#arduin .RollableTableControl {
+    width: 450px;
+}
+
+.RollableTableControl-RollColumn{
+    width: 40px;
+}

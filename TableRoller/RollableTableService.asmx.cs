@@ -15,7 +15,7 @@ namespace TableRoller
 	/// <summary>
 	/// Summary description for TableRoller
 	/// </summary>
-	[WebService(Namespace = "http://realmsmith.com/")]
+	[WebService(Namespace = "http://tableroller.com/")]
 	[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
 	[System.ComponentModel.ToolboxItem(false)]
 	[System.Web.Script.Services.ScriptService]

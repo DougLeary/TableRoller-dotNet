@@ -62,13 +62,13 @@
 	<div>
 		<h1>Arduin Special Abilities</h1>
 		<p>Based on the table by David Hargrave in the Arduin Grimoire, Vol 1.</p>
-		<div>
+		<div id="arduin">
 			<input type="button" value="Roll Once" onclick="RollOnTable(1);" style="padding-right: 2em;" />&nbsp;
 			<input type="button" value="Roll 50 times" onclick="RollOnTable(50);" style="padding-right: 2em;" />
 			<table>
 				<tr>
 					<td style="padding-right: 10px; border-right: 2px solid #a0a0a0;">
-						<gb:RollableTableControl ID="RollableTableControl1" runat="server" Width="460px" ></gb:RollableTableControl>
+						<gb:RollableTableControl ID="RollableTableControl1" runat="server" ></gb:RollableTableControl>
 					</td>
 					<td>
 						<div id="divResults"></div>

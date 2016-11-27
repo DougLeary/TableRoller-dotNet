@@ -15,7 +15,7 @@ namespace TableRoller.Services
 	/// <summary>
 	/// Dice Rolling Service
 	/// </summary>
-	[WebService(Namespace = "http://realmsmith.com/")]
+	[WebService(Namespace = "http://tableroller.com/")]
 	[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
 	[System.Web.Script.Services.ScriptService]
 	public class DiceService : WebService

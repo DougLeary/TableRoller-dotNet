@@ -26,16 +26,15 @@
 								TableRoller</div>
 							<div class="menuSection">
 								<a href="Default.aspx">Home</a>
-								<br />
 								<a href="/wiki/">Wiki</a>
 							</div>
 							<div class="menuHeading">
 								Utilities</div>
 							<div class="menuSection">
 								<a href="RollDice.aspx">Dice Roller</a>
-								<br />
 								<a href="RollCharacter.aspx">Character Roller</a>
-								<br />
+								<a href="TreasureTypes.aspx">Treasure Table Demo</a>
+								<a href="ArduinSpecialAbilities.aspx">Arduin Demo</a>
 								<a href="TableRollDemo.aspx">Table Roll Demo</a>
 							</div>
 							<asp:ContentPlaceHolder ID="MenuPlaceHolder" runat="server">

@@ -11,7 +11,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using GameBits;
 
-namespace RealmSmith
+namespace TableRoller
 {
 	public partial class ArduinSpecialAbilities : System.Web.UI.Page
 	{

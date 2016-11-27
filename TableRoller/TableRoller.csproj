@@ -99,6 +99,7 @@
     <Content Include="Knockout1.aspx" />
     <Content Include="packages.config" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="TreasureService.asmx" />
     <Content Include="WorldCreation.htm" />
     <Content Include="JQueryUserControlHandler.ashx" />
     <Content Include="Main.Master" />
@@ -143,6 +144,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArduinSpecialAbilities.aspx.cs">
+      <DependentUpon>ArduinSpecialAbilities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ArduinSpecialAbilities.aspx.designer.cs">
+      <DependentUpon>ArduinSpecialAbilities.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CharacterBuilder.cs" />
     <Compile Include="Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
@@ -263,6 +271,7 @@
     </Compile>
     <Compile Include="TreasureService.asmx.cs">
       <SubType>Component</SubType>
+      <DependentUpon>TreasureService.asmx</DependentUpon>
     </Compile>
     <Compile Include="TreasureTypes.aspx.cs">
       <DependentUpon>TreasureTypes.aspx</DependentUpon>

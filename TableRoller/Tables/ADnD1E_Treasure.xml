@@ -1,6 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Tables>
-	<Table TableName="I. Map or Magic Determination">
+  <Table TableName="Magic-User Spells Level 1-4">
+    <DieRoll Sides="100" />
+    <Row HighRoll="20">
+      <GameObject Name="Magic Missiles" />
+    </Row>
+    <Row HighRoll="40">
+      <GameObject Name="Stinking Cloud" />
+    </Row>
+    <Row HighRoll="60">
+      <GameObject Name="Fireball" />
+    </Row>
+    <Row HighRoll="80">
+      <GameObject Name="Fly" />
+    </Row>
+    <Row HighRoll="100">
+      <GameObject Name="Enlarge" />
+    </Row>
+  </Table>
+  <Table TableName="I. Map or Magic Determination">
 		<DieRoll Sides="100" />
 		<Row HighRoll="10">
 			<TableRoll TableName="II. Map Table" />
@@ -51,7 +69,6 @@
 			<TableRoll TableName="III. Miscellaneous Weapons" />
 		</Row>
 	</Table>
-
 	<Table TableName="III. Potions">
 		<DieRoll Sides="100" />
 		<Row HighRoll="65">
@@ -61,7 +78,6 @@
 			<TableRoll TableName="III.A.2. Potions" />
 		</Row>
 	</Table>
-
 	<Table TableName="III. Scrolls">
 		<DieRoll Sides="100" />
 		<Row HighRoll="85">
@@ -71,7 +87,6 @@
 			<TableRoll TableName="III.B.2. Scrolls" />
 		</Row>
 	</Table>
-
 	<Table TableName="III. Rings">
 		<DieRoll Sides="100" />
 		<Row HighRoll="67">
@@ -81,7 +96,6 @@
 			<TableRoll TableName="III.C.2. Rings" />
 		</Row>
 	</Table>
-
 	<Table TableName="III. Rods, Staves and Wands">
 		<DieRoll Sides="100" />
 		<Row HighRoll="67">
@@ -91,7 +105,6 @@
 			<TableRoll TableName="III.D.2. Wands" />
 		</Row>
 	</Table>
-
 	<Table TableName="III. Miscellaneous Magic">
 		<DieRoll Sides="100" />
 		<Row HighRoll="14">
@@ -116,7 +129,6 @@
 			<TableRoll TableName="III.E.7. Miscellaneous Magic" />
 		</Row>
 	</Table>
-
 	<Table TableName="III.E.1. Miscellaneous Magic">
 		<DieRoll Sides="100"/>
 		<Row HighRoll="2">
@@ -219,7 +231,6 @@
 			<GameObject Name="Bucknard's Everfull Purse"/>
 		</Row>
 	</Table>
-
 	<Table TableName="III.E.2. Miscellaneous Magic">
 		<DieRoll Sides="100"/>
 		<Row HighRoll="6">
@@ -313,7 +324,6 @@
 			<GameObject Name="Eyes of Petrification"/>
 		</Row>
 	</Table>
-
 	<Table TableName="III.E.3. Miscellaneous Magic">
 		<DieRoll Sides="100"/>
 		<Row HighRoll="15">
@@ -416,7 +426,6 @@
 			<GameObject Name="Keoghtom's Ointment"/>
 		</Row>
 	</Table>
-
 	<Table TableName="III.E.4. Miscellaneous Magic">
 		<DieRoll Sides="100"/>
 		<Row HighRoll="1">
@@ -528,7 +537,6 @@
 			<GameObject Name="Quaal's Feather Token"/>
 		</Row>
 	</Table>
-
 	<Table TableName="III.E.5. Miscellaneous Magic">
 		<DieRoll Sides="100"/>
 		<Row HighRoll="1">
@@ -637,7 +645,6 @@
 			<GameObject Name="Wings of Flying"/>
 		</Row>
 	</Table>
-
 	<Table TableName="III.E.6. Miscellaneous Magic">
 		<DieRoll Sides="100"/>
 		<Row HighRoll="4">
@@ -731,7 +738,6 @@
 			<GameObject Name="Hat of Stupidity"/>
 		</Row>
 	</Table>
-
 	<Table TableName="III.E.7. Miscellaneous Magic">
 		<DieRoll Sides="100"/>
 		<Row HighRoll="5">
@@ -819,7 +825,6 @@
 			<GameObject Name="Zagyg's Spell Component Case (M)"/>
 		</Row>
 	</Table>
-
 	<Table TableName="III. Armor and Shields">
 		<DieRoll Sides="100" />
 		<Row HighRoll="50">
@@ -829,7 +834,6 @@
 			<TableRoll TableName="III.F.2. Armor and Shield" />
 		</Row>
 	</Table>
-
 	<Table TableName="III. Swords">
 		<DieRoll Sides="100" />
 		<Row HighRoll="95">
@@ -839,7 +843,6 @@
 			<TableRoll TableName="III.G.2. Swords" />
 		</Row>
 	</Table>
-
 	<Table TableName="III. Miscellaneous Weapons">
 		<DieRoll Sides="100" />
 		<Row HighRoll="50">
@@ -849,7 +852,6 @@
 			<TableRoll TableName="III.H.2. Miscellaneous Weapons" />
 		</Row>
 	</Table>
-
 	<Table TableName="III.A. Potions">
 		<DieRoll Sides="100" />
 		<Row HighRoll="3">
@@ -958,7 +960,6 @@
 			<GameObject Name="Potion of Water Breathing" />
 		</Row>
 	</Table>
-
 	<Table TableName="III.A.2. Potions">
 		<DieRoll Sides="100" />
 		<Row HighRoll="5">
@@ -1020,7 +1021,6 @@
 		</Row>
 
 	</Table>
-
 	<Table TableName="III.B. Scrolls">
 		<DieRoll Sides="100" />
 		<Row HighRoll="10">
@@ -1033,8 +1033,12 @@
 			<GameObject Name="Scroll, 1 spell, level 2-9(M) or 2-7(C)" />
 		</Row>
 		<Row HighRoll="24">
-			<GameObject Name="Scroll, 2 spells, level 1-4" />
-		</Row>
+      <GameObject Name="Scroll, 2 spells, level 1-4">
+        <Contains>
+          <TableRoll TableName="Magic-User Spells Level 1-4" Rolls="2" />
+        </Contains>
+      </GameObject>
+      </Row>
 		<Row HighRoll="27">
 			<GameObject Name="Scroll, 2 spells, level 1-8(M) or 1-6(C)" />
 		</Row>
@@ -1099,7 +1103,6 @@
 			<GameObject Name="Curse" />
 		</Row>
 	</Table>
-
 	<Table TableName="III.B.2. Scrolls">
 		<DieRoll Sides="100" />
 		<Row HighRoll="2">
@@ -1160,7 +1163,6 @@
 			<GameObject Name="Scroll, Protection from normal missiles" />
 		</Row>
 	</Table>
-
 	<Table TableName="III.C. Rings">
 		<DieRoll Sides="100" />
 		<Row HighRoll="6">
@@ -1236,7 +1238,6 @@
 			<GameObject Name="Ring of X-Ray Vision" />
 		</Row>
 	</Table>
-
 	<Table TableName="III.C.2. Rings">
 		<DieRoll Sides="100"/>
 		<Row HighRoll="8">
@@ -1279,7 +1280,6 @@
 			<GameObject Name="Ring of Truth"/>
 		</Row>
 	</Table>
-
 	<Table TableName="III.D. Rods and Staves">
 		<DieRoll Sides="100"/>
 		<Row HighRoll="6">
@@ -1358,7 +1358,6 @@
 			<GameObject Name="Staff of the Woodlands (D)" />
 		</Row>
 	</Table>
-
 	<Table TableName="III.D.2. Wands">
 		<DieRoll Sides="100"/>
 		<Row HighRoll="1">
@@ -1446,7 +1445,6 @@
 			<GameObject Name="Wand of Wonder"/>
 		</Row>
 	</Table>
-	
 	<Table TableName="III.F. Armor and Shield">
 		<DieRoll Sides="100" />
 		<Row HighRoll="5">
@@ -1528,7 +1526,6 @@
 			<GameObject Name="Shield -1, missile attractor" />
 		</Row>
 	</Table>
-
 	<Table TableName="III.F.2. Armor and Shield">
 		<DieRoll Sides="100" />
 		<Row HighRoll="1">
@@ -1610,7 +1607,6 @@
 			<GameObject Name="Studded Leather +2" />
 		</Row>
 	</Table>
-	
 	<Table TableName="III.G. Swords">
 		<DieRoll Sides="100" />
 		<Row HighRoll="25">
@@ -1674,7 +1670,6 @@
 			<GameObject Name="Sword, Cursed Berserking" />
 		</Row>
 	</Table>
-	
 	<Table TableName="III.G.2. Swords">
 		<DieRoll Sides="100" />
 		<Row HighRoll="15">
@@ -1717,7 +1712,6 @@
 			<GameObject Name="Sword of Wounding " />
 		</Row>
 	</Table>
-	
 	<Table TableName="III.H. Miscellaneous Weapons">
 		<DieRoll Sides="100" />
 		<Row HighRoll="8">
@@ -1841,7 +1835,6 @@
 			<GameObject Name="Trident (Military Fork) +3" />
 		</Row>
 	</Table>
-	
 	<Table TableName="III.H.2. Miscellaneous Weapons">
 		<DieRoll Sides="100" />
 		<Row HighRoll="2">
@@ -1995,6 +1988,5 @@
 			<GameObject Name="Spear +5" />
 		</Row>
 	</Table>
-
 </Tables>
 

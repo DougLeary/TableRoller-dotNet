@@ -68,7 +68,7 @@
 		</Row>
 	</Table>
 	<Table TableName="Treasure Table 1">
-		<DieRoll Sides="10" />
+		<DieRoll Sides="20" />
 		<Row HighRoll="1">
 			<ItemRoll Multiplier="1000">
 				<GameObject Name="sp" Plural="sp" />
@@ -112,7 +112,15 @@
 		<Row HighRoll="10">
 			<TableRoll TableName="Gems and Jewels Table" />
 		</Row>
-	</Table>
+    <Row HighRoll="20">
+      <GameObject Name="Scroll">
+        <Contains>
+          <GameObject Name="Stinking Cloud"></GameObject>
+          <GameObject Name="Invisibility"></GameObject>
+        </Contains>
+      </GameObject>
+    </Row>
+  </Table>
 	<Table TableName="Villagers Table 1">
 		<DieRoll Sides="12" />
 		<Row HighRoll="2">

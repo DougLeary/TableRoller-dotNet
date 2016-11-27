@@ -50,7 +50,7 @@
 			<GameObject Name="+2 vs all undead attacks; -2 vs all missile attacks" />
 		</Row>
 		<Row HighRoll="38">
-			<GameObject Name="Ex-seafarer, who cannot be drowned even in full armor (you shed it)" />
+			<GameObject Name="Ex-seafarer, cannot be drowned even in full armor (you shed it)" />
 		</Row>
 		<Row HighRoll="40">
 			<GameObject Name="Flesh tastes bad to monsters (75% chance they'll spit you out!" />

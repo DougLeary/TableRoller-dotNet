@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
-using System.Linq;
+using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.Script.Serialization;
 using System.Web.Script.Services;
@@ -15,7 +15,7 @@ namespace TableRoller
 	/// <summary>
 	/// Summary description for TreasureService
 	/// </summary>
-	[WebService(Namespace = "http://realmsmith.com/")]
+	[WebService(Namespace = "http://tableroller.com/")]
 	[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
 	[System.ComponentModel.ToolboxItem(false)]
 	[System.Web.Script.Services.ScriptService]
@@ -313,13 +313,18 @@ namespace TableRoller
 			return List;
 		}
 
-		[WebMethod(EnableSession = true)]
+        string RemoveSpaces(string value)
+        {
+            return Regex.Replace(value, @"\s+", "");
+        }
+
+        [WebMethod(EnableSession = true)]
 		[ScriptMethod(ResponseFormat = ResponseFormat.Json)]
 		public string GetADnD1ETreasureByType(string TreasureTypes)
 		{
 			// roll on the ADnDTreasureTypes rollable list
 			RollableList List = GetADnDTreasureTypes();
-			ItemList list = (ItemList)(List.ResolveItem(TreasureTypes));
+			ItemList list = (ItemList)(List.ResolveItem(RemoveSpaces(TreasureTypes)));
 			string strList = list.ToString(ItemList.Format.Uncompressed).Trim();
 			if (strList.Length == 0)
 			{
