@@ -48,6 +48,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -82,12 +86,8 @@
     <Content Include="Dashboard0.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DiceService.asmx" />
-    <Content Include="EditGameObject.ascx" />
     <Content Include="EditTable.aspx" />
     <Content Include="EditTest.htm" />
-    <Content Include="EditTest2.htm" />
-    <Content Include="ExampleBindableControl.ascx" />
-    <Content Include="Exp1.aspx" />
     <Content Include="iframeTest\frOne.htm" />
     <Content Include="iframeTest\frTwo.htm" />
     <Content Include="iframeTest\main.htm" />
@@ -96,7 +96,6 @@
     <Content Include="Images\swordandaxe.jpg" />
     <Content Include="JQueryTest.htm" />
     <Content Include="JQueryTest2.htm" />
-    <Content Include="Knockout1.aspx" />
     <Content Include="packages.config" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="TreasureService.asmx" />
@@ -117,7 +116,6 @@
     <Content Include="RollableTableService.asmx" />
     <Content Include="RollCharacter.aspx" />
     <Content Include="RollDice.aspx" />
-    <Content Include="SampleTextTool.htm" />
     <Content Include="Scripts\editors.js" />
     <Content Include="Scripts\jquery.js" />
     <Content Include="Scripts\json2.js" />
@@ -140,7 +138,6 @@
     <Content Include="TestWebStorage.htm" />
     <Content Include="TextProviderTest.aspx" />
     <Content Include="TreasureTypes.aspx" />
-    <Content Include="UserControlWrapper.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -177,33 +174,12 @@
       <DependentUpon>DiceService.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="EditGameObject.ascx.cs">
-      <DependentUpon>EditGameObject.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="EditGameObject.ascx.designer.cs">
-      <DependentUpon>EditGameObject.ascx</DependentUpon>
-    </Compile>
     <Compile Include="EditTable.aspx.cs">
       <DependentUpon>EditTable.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="EditTable.aspx.designer.cs">
       <DependentUpon>EditTable.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ExampleBindableControl.ascx.cs">
-      <DependentUpon>ExampleBindableControl.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ExampleBindableControl.ascx.designer.cs">
-      <DependentUpon>ExampleBindableControl.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="Exp1.aspx.cs">
-      <DependentUpon>Exp1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Exp1.aspx.designer.cs">
-      <DependentUpon>Exp1.aspx</DependentUpon>
     </Compile>
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
@@ -279,13 +255,6 @@
     </Compile>
     <Compile Include="TreasureTypes.aspx.designer.cs">
       <DependentUpon>TreasureTypes.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="UserControlWrapper.aspx.cs">
-      <DependentUpon>UserControlWrapper.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UserControlWrapper.aspx.designer.cs">
-      <DependentUpon>UserControlWrapper.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

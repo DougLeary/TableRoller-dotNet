@@ -3,19 +3,19 @@
   <Table TableName="Magic-User Spells Level 1-4">
     <DieRoll Sides="100" />
     <Row HighRoll="20">
-      <GameObject Name="Magic Missiles" />
+      <GameObject Name="Magic Missiles" Plural="Magic Missiles" />
     </Row>
     <Row HighRoll="40">
-      <GameObject Name="Stinking Cloud" />
+      <GameObject Name="Stinking Cloud" Plural="Stinking Cloud" />
     </Row>
     <Row HighRoll="60">
-      <GameObject Name="Fireball" />
+      <GameObject Name="Fireball" Plural="Fireball" />
     </Row>
     <Row HighRoll="80">
-      <GameObject Name="Fly" />
+      <GameObject Name="Fly" Plural="Fly" />
     </Row>
     <Row HighRoll="100">
-      <GameObject Name="Enlarge" />
+      <GameObject Name="Enlarge" Plural="Enlarge" />
     </Row>
   </Table>
   <Table TableName="I. Map or Magic Determination">
@@ -1427,7 +1427,7 @@
 			<GameObject Name="Wand of Negation"/>
 		</Row>
 		<Row HighRoll="78">
-			<GameObject Name="Wand of Parlalyzation (M)"/>
+			<GameObject Name="Wand of Paralyzation (M)"/>
 		</Row>
 		<Row HighRoll="82">
 			<GameObject Name="Wand of Polymorphing (M)"/>

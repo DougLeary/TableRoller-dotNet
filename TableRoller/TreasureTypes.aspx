@@ -13,7 +13,13 @@
 				data: st,
 				contentType: "application/json; charset=utf-8",
 				dataType: "json",
-				success: function (msg) { $("#treasureResult").html(msg.d); },
+				success: function (msg) {
+				    $("#treasureResult").html(msg.d);
+				},
+				//error: function (xhr, ajaxOptions, thrownError) {
+				//    alert(xhr.status);
+				//    alert(thrownError);
+				//}
 				error: function (msg) {
 					alert("data: " + st + "; something went wrong");
 				}

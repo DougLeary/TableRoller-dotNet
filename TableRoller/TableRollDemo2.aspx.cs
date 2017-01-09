@@ -16,7 +16,6 @@ namespace TableRoller
 {
 	public partial class TableRollDemo2 : System.Web.UI.Page
 	{
-		Repository bits;
 		string filePath = HttpContext.Current.Server.MapPath("./Tables/ADnD1E_Treasure.xml");
 
 		protected void Page_Load(object sender, EventArgs e)

@@ -13,7 +13,6 @@ namespace TableRoller
 {
 	public partial class EditTable : System.Web.UI.Page
 	{
-		Repository bits;
 		string filePath = HttpContext.Current.Server.MapPath("App_Data/Tables.xml");
 
 		protected void Page_Load(object sender, EventArgs e)

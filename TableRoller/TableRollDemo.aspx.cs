@@ -16,7 +16,6 @@ namespace TableRoller
 {
 	public partial class TableRollDemo : System.Web.UI.Page
 	{
-		Repository bits;
 		string filePath = HttpContext.Current.Server.MapPath("./Tables/SampleTables.xml");
 
 		protected void Page_Load(object sender, EventArgs e)

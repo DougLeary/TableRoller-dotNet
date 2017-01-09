@@ -10,7 +10,6 @@ namespace TableRoller
 	public partial class TextProviderTest : System.Web.UI.Page
 	{
 		protected RollableTable MyTable;
-		Repository bits;
 		string SamplePath = HttpContext.Current.Server.MapPath("./Tables/SampleTables.xml");
 		string ADnDPath = HttpContext.Current.Server.MapPath("./Tables/ADnD1E_Treasure.xml");
 
