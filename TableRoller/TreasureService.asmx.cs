@@ -82,7 +82,7 @@ namespace TableRoller
 			//   - create a temporary RollableTable that contains TableRolls for those three tables;
 			//   - create an ItemRoll that rolls on the temp table 10% of the time;
 			//   - add the ItemRoll to the List.
-			RollableTable tempTable = new RollableTable();
+			RollableTable tempTable = new RollableTable("Sword, armor or misc. weapon");
 			tempTable.Dice = new DieRoll("d3");
 			tempTable.Add(new TableRoll(Repository.GetTable("III. Swords")), 1);
 			tempTable.Add(new TableRoll(Repository.GetTable("III. Armor and Shields")), 2);
@@ -330,10 +330,15 @@ namespace TableRoller
 			RollableList List = GetADnDTreasureTypes();
 
             ItemList list = (ItemList)(List.Resolve(RemoveSpaces(TreasureTypes)));
-            string json = JsonConvert.SerializeObject(list, Formatting.Indented);
-            //Logger.Write(json);
-
             string strList = list.ToString(ItemList.Format.Compressed).Trim();
+            //debug
+            char[] separators = { ';' };
+            Logger.Write("==== Output ====");
+            Array items = strList.Split(separators);
+            foreach(string item in items)
+            {
+                Logger.Write(item);
+            }
             Logger.Save();
 			if (strList.Length == 0)
 			{
